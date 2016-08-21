@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B305B1E51D6970080053A161 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B305B1E41D6970080053A161 /* Helper.swift */; };
+		B31481A01D68C7DE00E766D7 /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B314819F1D68C7DE00E766D7 /* SwiftSpinner.swift */; };
+		B322E5861D62FF2E00E59FBD /* VisaInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322E5851D62FF2E00E59FBD /* VisaInfoTableViewController.swift */; };
+		B322E58A1D6325ED00E59FBD /* CellDescriptor.plist in Resources */ = {isa = PBXBuildFile; fileRef = B322E5891D6325ED00E59FBD /* CellDescriptor.plist */; };
+		B361B79E1D61D8380067266F /* 2012 Data.json in Resources */ = {isa = PBXBuildFile; fileRef = B361B79D1D61D8380067266F /* 2012 Data.json */; };
+		B361B7A01D61DE250067266F /* CompaniesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B361B79F1D61DE250067266F /* CompaniesTableViewController.swift */; };
+		B361B7A21D61DE4C0067266F /* CompanyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B361B7A11D61DE4C0067266F /* CompanyCell.swift */; };
+		B361B7A41D61E23D0067266F /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = B361B7A31D61E23D0067266F /* Company.swift */; };
+		B3710F851D6096F400AC6316 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3710F841D6096F400AC6316 /* AppDelegate.swift */; };
+		B3710F871D6096F400AC6316 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3710F861D6096F400AC6316 /* ViewController.swift */; };
+		B3710F8A1D6096F400AC6316 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3710F881D6096F400AC6316 /* Main.storyboard */; };
+		B3710F8D1D6096F400AC6316 /* Working_Right.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B3710F8B1D6096F400AC6316 /* Working_Right.xcdatamodeld */; };
+		B3710F8F1D6096F400AC6316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3710F8E1D6096F400AC6316 /* Assets.xcassets */; };
+		B3710F921D6096F400AC6316 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3710F901D6096F400AC6316 /* LaunchScreen.storyboard */; };
+		B3710F9D1D6096F400AC6316 /* Working_RightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3710F9C1D6096F400AC6316 /* Working_RightTests.swift */; };
+		B3710FA81D6096F400AC6316 /* Working_RightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3710FA71D6096F400AC6316 /* Working_RightUITests.swift */; };
+		B3769DB41D6984D6008791DE /* main page image.png in Resources */ = {isa = PBXBuildFile; fileRef = B3769DB31D6984D6008791DE /* main page image.png */; };
+		B3769DBE1D69990E008791DE /* cases.png in Resources */ = {isa = PBXBuildFile; fileRef = B3769DBB1D69990D008791DE /* cases.png */; };
+		B3769DBF1D69990E008791DE /* pay rates.png in Resources */ = {isa = PBXBuildFile; fileRef = B3769DBC1D69990E008791DE /* pay rates.png */; };
+		B3769DC01D69990E008791DE /* visa info.png in Resources */ = {isa = PBXBuildFile; fileRef = B3769DBD1D69990E008791DE /* visa info.png */; };
+		B38FFB6D1D64752600779D66 /* visaInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = B38FFB6C1D64752600779D66 /* visaInfo.json */; };
+		B38FFB6F1D64768500779D66 /* Visa.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38FFB6E1D64768500779D66 /* Visa.swift */; };
+		B38FFB711D64853700779D66 /* DisclaimerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38FFB701D64853700779D66 /* DisclaimerTableViewController.swift */; };
+		B38FFB731D64A56D00779D66 /* VisaTypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38FFB721D64A56D00779D66 /* VisaTypeTableViewController.swift */; };
+		B39837D11D66F77600EB67B4 /* PayRatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39837D01D66F77600EB67B4 /* PayRatesViewController.swift */; };
+		B3B7894F1D658B43007BEDAA /* VisaTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B7894E1D658B43007BEDAA /* VisaTabViewController.swift */; };
+		B3D1306B1D686535003D7B01 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D1306A1D686535003D7B01 /* AboutUsViewController.swift */; };
+		B3D130731D687503003D7B01 /* student visa tab bar icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B3D130721D687503003D7B01 /* student visa tab bar icon.png */; };
+		B3FDF6931D68212D00B8B732 /* 2013 Data.json in Resources */ = {isa = PBXBuildFile; fileRef = B3FDF6921D68212D00B8B732 /* 2013 Data.json */; };
+		B3FDF6951D6824EE00B8B732 /* CaseDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FDF6941D6824EE00B8B732 /* CaseDetailsViewController.swift */; };
+		B3FDF6971D682B5C00B8B732 /* working visa tab bar icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B3FDF6961D682B5C00B8B732 /* working visa tab bar icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3710F991D6096F400AC6316 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3710F791D6096F400AC6316 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3710F801D6096F400AC6316;
+			remoteInfo = "Working Right";
+		};
+		B3710FA41D6096F400AC6316 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3710F791D6096F400AC6316 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3710F801D6096F400AC6316;
+			remoteInfo = "Working Right";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B305B1E41D6970080053A161 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		B314819F1D68C7DE00E766D7 /* SwiftSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSpinner.swift; sourceTree = "<group>"; };
+		B322E5851D62FF2E00E59FBD /* VisaInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisaInfoTableViewController.swift; sourceTree = "<group>"; };
+		B322E5891D6325ED00E59FBD /* CellDescriptor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor.plist; sourceTree = "<group>"; };
+		B361B79D1D61D8380067266F /* 2012 Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2012 Data.json"; sourceTree = "<group>"; };
+		B361B79F1D61DE250067266F /* CompaniesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompaniesTableViewController.swift; sourceTree = "<group>"; };
+		B361B7A11D61DE4C0067266F /* CompanyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyCell.swift; sourceTree = "<group>"; };
+		B361B7A31D61E23D0067266F /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		B3710F811D6096F400AC6316 /* Working Rights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Working Rights.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3710F841D6096F400AC6316 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3710F861D6096F400AC6316 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3710F891D6096F400AC6316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3710F8C1D6096F400AC6316 /* Working_Right.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Working_Right.xcdatamodel; sourceTree = "<group>"; };
+		B3710F8E1D6096F400AC6316 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3710F911D6096F400AC6316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3710F931D6096F400AC6316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3710F981D6096F400AC6316 /* Working Rights.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Working Rights.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3710F9C1D6096F400AC6316 /* Working_RightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Working_RightTests.swift; sourceTree = "<group>"; };
+		B3710F9E1D6096F400AC6316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3710FA31D6096F400AC6316 /* Working Rights.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Working Rights.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3710FA71D6096F400AC6316 /* Working_RightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Working_RightUITests.swift; sourceTree = "<group>"; };
+		B3710FA91D6096F400AC6316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3769DB31D6984D6008791DE /* main page image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main page image.png"; sourceTree = "<group>"; };
+		B3769DBB1D69990D008791DE /* cases.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cases.png; sourceTree = "<group>"; };
+		B3769DBC1D69990E008791DE /* pay rates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pay rates.png"; sourceTree = "<group>"; };
+		B3769DBD1D69990E008791DE /* visa info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "visa info.png"; sourceTree = "<group>"; };
+		B38FFB6C1D64752600779D66 /* visaInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = visaInfo.json; sourceTree = "<group>"; };
+		B38FFB6E1D64768500779D66 /* Visa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Visa.swift; sourceTree = "<group>"; };
+		B38FFB701D64853700779D66 /* DisclaimerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisclaimerTableViewController.swift; sourceTree = "<group>"; };
+		B38FFB721D64A56D00779D66 /* VisaTypeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisaTypeTableViewController.swift; sourceTree = "<group>"; };
+		B39837D01D66F77600EB67B4 /* PayRatesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayRatesViewController.swift; sourceTree = "<group>"; };
+		B3B7894E1D658B43007BEDAA /* VisaTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisaTabViewController.swift; sourceTree = "<group>"; };
+		B3D1306A1D686535003D7B01 /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		B3D130721D687503003D7B01 /* student visa tab bar icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "student visa tab bar icon.png"; sourceTree = "<group>"; };
+		B3FDF6921D68212D00B8B732 /* 2013 Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2013 Data.json"; sourceTree = "<group>"; };
+		B3FDF6941D6824EE00B8B732 /* CaseDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaseDetailsViewController.swift; sourceTree = "<group>"; };
+		B3FDF6961D682B5C00B8B732 /* working visa tab bar icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "working visa tab bar icon.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3710F7E1D6096F400AC6316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3710F951D6096F400AC6316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3710FA01D6096F400AC6316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B361B79C1D61D82B0067266F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B361B79D1D61D8380067266F /* 2012 Data.json */,
+				B3FDF6921D68212D00B8B732 /* 2013 Data.json */,
+				B38FFB6C1D64752600779D66 /* visaInfo.json */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		B3710F781D6096F400AC6316 = {
+			isa = PBXGroup;
+			children = (
+				B3FDF68F1D680DCF00B8B732 /* Image */,
+				B3FDF68C1D680DA700B8B732 /* Icon */,
+				B361B79C1D61D82B0067266F /* Data */,
+				B3710F831D6096F400AC6316 /* Working Right */,
+				B3710F9B1D6096F400AC6316 /* Working RightTests */,
+				B3710FA61D6096F400AC6316 /* Working RightUITests */,
+				B3710F821D6096F400AC6316 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3710F821D6096F400AC6316 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3710F811D6096F400AC6316 /* Working Rights.app */,
+				B3710F981D6096F400AC6316 /* Working Rights.xctest */,
+				B3710FA31D6096F400AC6316 /* Working Rights.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3710F831D6096F400AC6316 /* Working Right */ = {
+			isa = PBXGroup;
+			children = (
+				B3710F881D6096F400AC6316 /* Main.storyboard */,
+				B3710F841D6096F400AC6316 /* AppDelegate.swift */,
+				B3710F861D6096F400AC6316 /* ViewController.swift */,
+				B3D1306A1D686535003D7B01 /* AboutUsViewController.swift */,
+				B3B7894E1D658B43007BEDAA /* VisaTabViewController.swift */,
+				B38FFB721D64A56D00779D66 /* VisaTypeTableViewController.swift */,
+				B322E5851D62FF2E00E59FBD /* VisaInfoTableViewController.swift */,
+				B38FFB6E1D64768500779D66 /* Visa.swift */,
+				B361B79F1D61DE250067266F /* CompaniesTableViewController.swift */,
+				B361B7A11D61DE4C0067266F /* CompanyCell.swift */,
+				B361B7A31D61E23D0067266F /* Company.swift */,
+				B3FDF6941D6824EE00B8B732 /* CaseDetailsViewController.swift */,
+				B39837D01D66F77600EB67B4 /* PayRatesViewController.swift */,
+				B38FFB701D64853700779D66 /* DisclaimerTableViewController.swift */,
+				B314819F1D68C7DE00E766D7 /* SwiftSpinner.swift */,
+				B305B1E41D6970080053A161 /* Helper.swift */,
+				B3710F8E1D6096F400AC6316 /* Assets.xcassets */,
+				B3710F901D6096F400AC6316 /* LaunchScreen.storyboard */,
+				B3710F931D6096F400AC6316 /* Info.plist */,
+				B322E5891D6325ED00E59FBD /* CellDescriptor.plist */,
+				B3710F8B1D6096F400AC6316 /* Working_Right.xcdatamodeld */,
+			);
+			path = "Working Right";
+			sourceTree = "<group>";
+		};
+		B3710F9B1D6096F400AC6316 /* Working RightTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3710F9C1D6096F400AC6316 /* Working_RightTests.swift */,
+				B3710F9E1D6096F400AC6316 /* Info.plist */,
+			);
+			path = "Working RightTests";
+			sourceTree = "<group>";
+		};
+		B3710FA61D6096F400AC6316 /* Working RightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3710FA71D6096F400AC6316 /* Working_RightUITests.swift */,
+				B3710FA91D6096F400AC6316 /* Info.plist */,
+			);
+			path = "Working RightUITests";
+			sourceTree = "<group>";
+		};
+		B3FDF68C1D680DA700B8B732 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				B3FDF6961D682B5C00B8B732 /* working visa tab bar icon.png */,
+				B3D130721D687503003D7B01 /* student visa tab bar icon.png */,
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+		B3FDF68F1D680DCF00B8B732 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				B3769DBB1D69990D008791DE /* cases.png */,
+				B3769DBC1D69990E008791DE /* pay rates.png */,
+				B3769DBD1D69990E008791DE /* visa info.png */,
+				B3769DB31D6984D6008791DE /* main page image.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3710F801D6096F400AC6316 /* Working Rights */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3710FAC1D6096F400AC6316 /* Build configuration list for PBXNativeTarget "Working Rights" */;
+			buildPhases = (
+				B3710F7D1D6096F400AC6316 /* Sources */,
+				B3710F7E1D6096F400AC6316 /* Frameworks */,
+				B3710F7F1D6096F400AC6316 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Working Rights";
+			productName = "Working Right";
+			productReference = B3710F811D6096F400AC6316 /* Working Rights.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3710F971D6096F400AC6316 /* Working RightsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3710FAF1D6096F400AC6316 /* Build configuration list for PBXNativeTarget "Working RightsTests" */;
+			buildPhases = (
+				B3710F941D6096F400AC6316 /* Sources */,
+				B3710F951D6096F400AC6316 /* Frameworks */,
+				B3710F961D6096F400AC6316 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3710F9A1D6096F400AC6316 /* PBXTargetDependency */,
+			);
+			name = "Working RightsTests";
+			productName = "Working RightTests";
+			productReference = B3710F981D6096F400AC6316 /* Working Rights.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3710FA21D6096F400AC6316 /* Working RightsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3710FB21D6096F400AC6316 /* Build configuration list for PBXNativeTarget "Working RightsUITests" */;
+			buildPhases = (
+				B3710F9F1D6096F400AC6316 /* Sources */,
+				B3710FA01D6096F400AC6316 /* Frameworks */,
+				B3710FA11D6096F400AC6316 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3710FA51D6096F400AC6316 /* PBXTargetDependency */,
+			);
+			name = "Working RightsUITests";
+			productName = "Working RightUITests";
+			productReference = B3710FA31D6096F400AC6316 /* Working Rights.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3710F791D6096F400AC6316 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Qingzhou Wang";
+				TargetAttributes = {
+					B3710F801D6096F400AC6316 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 77PYHN5987;
+					};
+					B3710F971D6096F400AC6316 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SDT7968UUA;
+						TestTargetID = B3710F801D6096F400AC6316;
+					};
+					B3710FA21D6096F400AC6316 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SDT7968UUA;
+						TestTargetID = B3710F801D6096F400AC6316;
+					};
+				};
+			};
+			buildConfigurationList = B3710F7C1D6096F400AC6316 /* Build configuration list for PBXProject "Working Rights" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3710F781D6096F400AC6316;
+			productRefGroup = B3710F821D6096F400AC6316 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3710F801D6096F400AC6316 /* Working Rights */,
+				B3710F971D6096F400AC6316 /* Working RightsTests */,
+				B3710FA21D6096F400AC6316 /* Working RightsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3710F7F1D6096F400AC6316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3769DB41D6984D6008791DE /* main page image.png in Resources */,
+				B3710F921D6096F400AC6316 /* LaunchScreen.storyboard in Resources */,
+				B3FDF6971D682B5C00B8B732 /* working visa tab bar icon.png in Resources */,
+				B322E58A1D6325ED00E59FBD /* CellDescriptor.plist in Resources */,
+				B38FFB6D1D64752600779D66 /* visaInfo.json in Resources */,
+				B361B79E1D61D8380067266F /* 2012 Data.json in Resources */,
+				B3769DBE1D69990E008791DE /* cases.png in Resources */,
+				B3769DC01D69990E008791DE /* visa info.png in Resources */,
+				B3710F8F1D6096F400AC6316 /* Assets.xcassets in Resources */,
+				B3D130731D687503003D7B01 /* student visa tab bar icon.png in Resources */,
+				B3769DBF1D69990E008791DE /* pay rates.png in Resources */,
+				B3FDF6931D68212D00B8B732 /* 2013 Data.json in Resources */,
+				B3710F8A1D6096F400AC6316 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3710F961D6096F400AC6316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3710FA11D6096F400AC6316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3710F7D1D6096F400AC6316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38FFB6F1D64768500779D66 /* Visa.swift in Sources */,
+				B38FFB711D64853700779D66 /* DisclaimerTableViewController.swift in Sources */,
+				B361B7A21D61DE4C0067266F /* CompanyCell.swift in Sources */,
+				B3710F871D6096F400AC6316 /* ViewController.swift in Sources */,
+				B31481A01D68C7DE00E766D7 /* SwiftSpinner.swift in Sources */,
+				B3D1306B1D686535003D7B01 /* AboutUsViewController.swift in Sources */,
+				B38FFB731D64A56D00779D66 /* VisaTypeTableViewController.swift in Sources */,
+				B305B1E51D6970080053A161 /* Helper.swift in Sources */,
+				B3710F8D1D6096F400AC6316 /* Working_Right.xcdatamodeld in Sources */,
+				B3710F851D6096F400AC6316 /* AppDelegate.swift in Sources */,
+				B39837D11D66F77600EB67B4 /* PayRatesViewController.swift in Sources */,
+				B361B7A01D61DE250067266F /* CompaniesTableViewController.swift in Sources */,
+				B322E5861D62FF2E00E59FBD /* VisaInfoTableViewController.swift in Sources */,
+				B3B7894F1D658B43007BEDAA /* VisaTabViewController.swift in Sources */,
+				B3FDF6951D6824EE00B8B732 /* CaseDetailsViewController.swift in Sources */,
+				B361B7A41D61E23D0067266F /* Company.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3710F941D6096F400AC6316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3710F9D1D6096F400AC6316 /* Working_RightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3710F9F1D6096F400AC6316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3710FA81D6096F400AC6316 /* Working_RightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3710F9A1D6096F400AC6316 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3710F801D6096F400AC6316 /* Working Rights */;
+			targetProxy = B3710F991D6096F400AC6316 /* PBXContainerItemProxy */;
+		};
+		B3710FA51D6096F400AC6316 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3710F801D6096F400AC6316 /* Working Rights */;
+			targetProxy = B3710FA41D6096F400AC6316 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3710F881D6096F400AC6316 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3710F891D6096F400AC6316 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3710F901D6096F400AC6316 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3710F911D6096F400AC6316 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3710FAA1D6096F400AC6316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3710FAB1D6096F400AC6316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3710FAD1D6096F400AC6316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Working Right/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FIT5120-Working-Rights";
+				PRODUCT_NAME = "Working Rights";
+			};
+			name = Debug;
+		};
+		B3710FAE1D6096F400AC6316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Working Right/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FIT5120-Working-Rights";
+				PRODUCT_NAME = "Working Rights";
+			};
+			name = Release;
+		};
+		B3710FB01D6096F400AC6316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Working RightTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FIT5120.Working-RightTests";
+				PRODUCT_NAME = "Working Rights";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Working Rights.app/Working Rights";
+			};
+			name = Debug;
+		};
+		B3710FB11D6096F400AC6316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Working RightTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FIT5120.Working-RightTests";
+				PRODUCT_NAME = "Working Rights";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Working Rights.app/Working Rights";
+			};
+			name = Release;
+		};
+		B3710FB31D6096F400AC6316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Working RightUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FIT5120.Working-RightUITests";
+				PRODUCT_NAME = "Working Rights";
+				TEST_TARGET_NAME = "Working Right";
+			};
+			name = Debug;
+		};
+		B3710FB41D6096F400AC6316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Working RightUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FIT5120.Working-RightUITests";
+				PRODUCT_NAME = "Working Rights";
+				TEST_TARGET_NAME = "Working Right";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3710F7C1D6096F400AC6316 /* Build configuration list for PBXProject "Working Rights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3710FAA1D6096F400AC6316 /* Debug */,
+				B3710FAB1D6096F400AC6316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3710FAC1D6096F400AC6316 /* Build configuration list for PBXNativeTarget "Working Rights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3710FAD1D6096F400AC6316 /* Debug */,
+				B3710FAE1D6096F400AC6316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3710FAF1D6096F400AC6316 /* Build configuration list for PBXNativeTarget "Working RightsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3710FB01D6096F400AC6316 /* Debug */,
+				B3710FB11D6096F400AC6316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3710FB21D6096F400AC6316 /* Build configuration list for PBXNativeTarget "Working RightsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3710FB31D6096F400AC6316 /* Debug */,
+				B3710FB41D6096F400AC6316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B3710F8B1D6096F400AC6316 /* Working_Right.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B3710F8C1D6096F400AC6316 /* Working_Right.xcdatamodel */,
+			);
+			currentVersion = B3710F8C1D6096F400AC6316 /* Working_Right.xcdatamodel */;
+			path = Working_Right.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B3710F791D6096F400AC6316 /* Project object */;
+}
