@@ -26,18 +26,39 @@ class AboutUsViewController: UIViewController, UIWebViewDelegate {
         webView.backgroundColor = UIColor.clearColor()
         
         
-        webStartLoad("Loading page from server\nPlease wait")
-        timeOut = NSTimer.scheduledTimerWithTimeInterval(10, target: self, selector: #selector(self.cancelWeb), userInfo: nil, repeats: false)
+//        webStartLoad("Loading page from server\nPlease wait")
+//        timeOut = NSTimer.scheduledTimerWithTimeInterval(6, target: self, selector: #selector(self.cancelWeb), userInfo: nil, repeats: false)
+    }
+    
+    func webViewDidStartLoad(webView: UIWebView) {
+        if shouldWebStartLoad()
+        {
+            timeOut = NSTimer.scheduledTimerWithTimeInterval(6, target: self, selector: #selector(self.cancelWeb), userInfo: nil, repeats: false)
+        }
+        UIApplication.sharedApplication().networkActivityIndicatorVisible = true
     }
     
     func webViewDidFinishLoad(webView: UIWebView) {
+        // Hide spinner and network activity indicator when finish load.
         SwiftSpinner.hide()
-        timeOut.invalidate()
+        UIApplication.sharedApplication().networkActivityIndicatorVisible = false
+        if timeOut != nil
+        {
+            timeOut!.invalidate()
+        }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func webView(webView: UIWebView, didFailLoadWithError error: NSError?) {
+        // Hide spinner if load failed.
+        SwiftSpinner.show(error!.localizedDescription, animated: false).addTapHandler({
+            SwiftSpinner.hide()
+            self.dismissViewControllerAnimated(true, completion: nil)
+        })
     }
     
     @IBAction func done(sender: AnyObject) {
@@ -47,8 +68,9 @@ class AboutUsViewController: UIViewController, UIWebViewDelegate {
     
     func cancelWeb()
     {
+        UIApplication.sharedApplication().networkActivityIndicatorVisible = false
         // Display error message when load web time out, and dismiss this view controller when user tapped on screen.
-        SwiftSpinner.show("Connection time out\nPlease try later", animated: false).addTapHandler({
+        SwiftSpinner.show(webTimeOutMsg, animated: false).addTapHandler({
             SwiftSpinner.hide()
             self.dismissViewControllerAnimated(true, completion: nil)
         })

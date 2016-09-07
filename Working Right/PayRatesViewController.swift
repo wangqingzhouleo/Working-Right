@@ -13,6 +13,7 @@ class PayRatesViewController: UIViewController, UIWebViewDelegate {
     @IBOutlet weak var payRateWeb: UIWebView!
     // Load script page from server.
     var urlString: String = "http://116.118.249.210:8085/payscale.php"
+    @IBOutlet weak var activity: UIActivityIndicatorView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,10 +27,15 @@ class PayRatesViewController: UIViewController, UIWebViewDelegate {
         
         payRateWeb.loadRequest(request)
         payRateWeb.backgroundColor = UIColor.clearColor()
+        
 //        payRateWeb.scrollView.scrollEnabled = false
         
-        webStartLoad("Loading page from server\nPlease wait")
-        timeOut = NSTimer.scheduledTimerWithTimeInterval(10, target: self, selector: #selector(self.cancelWeb), userInfo: nil, repeats: false)
+//        webStartLoad("Loading page from server\nPlease wait")
+//        timeOut = NSTimer.scheduledTimerWithTimeInterval(6, target: self, selector: #selector(self.cancelWeb), userInfo: nil, repeats: false)
+        
+//        let button = UIBarButtonItem(title: "Back", style: .Bordered, target: self, action: #selector(self.reloadWeb))
+        let button = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Refresh, target: self, action: #selector(self.reloadWeb))
+        navigationItem.rightBarButtonItem = button
     }
 
     override func didReceiveMemoryWarning() {
@@ -37,22 +43,29 @@ class PayRatesViewController: UIViewController, UIWebViewDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-//    func webViewDidStartLoad(webView: UIWebView) {
-//        SwiftSpinner.show("Loading page from server\nPlease wait")
-//    }
-    
-    func webViewDidFinishLoad(webView: UIWebView) {
-        SwiftSpinner.hide()
-        timeOut.invalidate()
+    func webViewDidStartLoad(webView: UIWebView) {
+        activity.startAnimating()
+        UIApplication.sharedApplication().networkActivityIndicatorVisible = true
     }
     
-    func cancelWeb()
+    func webViewDidFinishLoad(webView: UIWebView) {
+        activity.stopAnimating()
+        activity.hidden = true
+        UIApplication.sharedApplication().networkActivityIndicatorVisible = false
+    }
+    
+    func webView(webView: UIWebView, didFailLoadWithError error: NSError?) {
+        UIApplication.sharedApplication().networkActivityIndicatorVisible = false
+        activity.stopAnimating()
+        activity.hidden = true
+        let alert = UIAlertController(title: "Error", message: "Network connection fails", preferredStyle: .Alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
+        presentViewController(alert, animated: true, completion: nil)
+    }
+    
+    func reloadWeb()
     {
-        // Display error message when load web time out, and dismiss this view controller when user tapped on screen.
-        SwiftSpinner.show("Connection time out\nPlease try later", animated: false).addTapHandler({
-            SwiftSpinner.hide()
-            self.navigationController?.popViewControllerAnimated(true)
-        })
+        payRateWeb.reload()
     }
 
     /*

@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FB8AD8A215B9894E928C205 /* Pods_Working_RightsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8BCFD6D627107AC680DA00 /* Pods_Working_RightsTests.framework */; };
+		4BABDED81B10D6807638DB76 /* Pods_Working_RightsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF22BB3E0144F92BA14F924E /* Pods_Working_RightsUITests.framework */; };
+		9BE452B6EB4664B1BC5BB8D2 /* Pods_Working_Rights.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC888C5C0B81E67300DA04B /* Pods_Working_Rights.framework */; };
 		B305B1E51D6970080053A161 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B305B1E41D6970080053A161 /* Helper.swift */; };
+		B30D522C1D71A7DB008B74D0 /* WorkRightsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30D522B1D71A7DB008B74D0 /* WorkRightsTableViewController.swift */; };
+		B30D52301D71AA1A008B74D0 /* Work Rights.json in Resources */ = {isa = PBXBuildFile; fileRef = B30D522F1D71AA1A008B74D0 /* Work Rights.json */; };
+		B30D52341D71CF3C008B74D0 /* ConditionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30D52331D71CF3C008B74D0 /* ConditionTableViewController.swift */; };
+		B30D52361D71D852008B74D0 /* Work Condition.json in Resources */ = {isa = PBXBuildFile; fileRef = B30D52351D71D852008B74D0 /* Work Condition.json */; };
 		B31481A01D68C7DE00E766D7 /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B314819F1D68C7DE00E766D7 /* SwiftSpinner.swift */; };
 		B322E5861D62FF2E00E59FBD /* VisaInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322E5851D62FF2E00E59FBD /* VisaInfoTableViewController.swift */; };
 		B322E58A1D6325ED00E59FBD /* CellDescriptor.plist in Resources */ = {isa = PBXBuildFile; fileRef = B322E5891D6325ED00E59FBD /* CellDescriptor.plist */; };
+		B33DB9F51D6DB059008DC8EB /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33DB9F41D6DB059008DC8EB /* MenuCell.swift */; };
 		B361B79E1D61D8380067266F /* 2012 Data.json in Resources */ = {isa = PBXBuildFile; fileRef = B361B79D1D61D8380067266F /* 2012 Data.json */; };
 		B361B7A01D61DE250067266F /* CompaniesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B361B79F1D61DE250067266F /* CompaniesTableViewController.swift */; };
-		B361B7A21D61DE4C0067266F /* CompanyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B361B7A11D61DE4C0067266F /* CompanyCell.swift */; };
 		B361B7A41D61E23D0067266F /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = B361B7A31D61E23D0067266F /* Company.swift */; };
 		B3710F851D6096F400AC6316 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3710F841D6096F400AC6316 /* AppDelegate.swift */; };
 		B3710F871D6096F400AC6316 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3710F861D6096F400AC6316 /* ViewController.swift */; };
@@ -24,20 +31,26 @@
 		B3710F9D1D6096F400AC6316 /* Working_RightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3710F9C1D6096F400AC6316 /* Working_RightTests.swift */; };
 		B3710FA81D6096F400AC6316 /* Working_RightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3710FA71D6096F400AC6316 /* Working_RightUITests.swift */; };
 		B3769DB41D6984D6008791DE /* main page image.png in Resources */ = {isa = PBXBuildFile; fileRef = B3769DB31D6984D6008791DE /* main page image.png */; };
-		B3769DBE1D69990E008791DE /* cases.png in Resources */ = {isa = PBXBuildFile; fileRef = B3769DBB1D69990D008791DE /* cases.png */; };
-		B3769DBF1D69990E008791DE /* pay rates.png in Resources */ = {isa = PBXBuildFile; fileRef = B3769DBC1D69990E008791DE /* pay rates.png */; };
-		B3769DC01D69990E008791DE /* visa info.png in Resources */ = {isa = PBXBuildFile; fileRef = B3769DBD1D69990E008791DE /* visa info.png */; };
+		B38824011D6DD398000A1542 /* LegalAidTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38824001D6DD398000A1542 /* LegalAidTabViewController.swift */; };
+		B38824031D6DD406000A1542 /* RightsTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38824021D6DD406000A1542 /* RightsTabViewController.swift */; };
 		B38FFB6D1D64752600779D66 /* visaInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = B38FFB6C1D64752600779D66 /* visaInfo.json */; };
 		B38FFB6F1D64768500779D66 /* Visa.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38FFB6E1D64768500779D66 /* Visa.swift */; };
-		B38FFB711D64853700779D66 /* DisclaimerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38FFB701D64853700779D66 /* DisclaimerTableViewController.swift */; };
 		B38FFB731D64A56D00779D66 /* VisaTypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38FFB721D64A56D00779D66 /* VisaTypeTableViewController.swift */; };
 		B39837D11D66F77600EB67B4 /* PayRatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39837D01D66F77600EB67B4 /* PayRatesViewController.swift */; };
+		B3AE6E811D7FE34A00F3957B /* TipsTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AE6E801D7FE34A00F3957B /* TipsTabViewController.swift */; };
+		B3AE6E851D7FF0F300F3957B /* ResumeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AE6E841D7FF0F300F3957B /* ResumeTableViewController.swift */; };
+		B3AE6E871D7FF0FE00F3957B /* InterviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AE6E861D7FF0FE00F3957B /* InterviewTableViewController.swift */; };
+		B3AE6E8B1D7FF37C00F3957B /* Resume.json in Resources */ = {isa = PBXBuildFile; fileRef = B3AE6E8A1D7FF37C00F3957B /* Resume.json */; };
+		B3AE6E8D1D7FF4D100F3957B /* Interview.json in Resources */ = {isa = PBXBuildFile; fileRef = B3AE6E8C1D7FF4D100F3957B /* Interview.json */; };
 		B3B7894F1D658B43007BEDAA /* VisaTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B7894E1D658B43007BEDAA /* VisaTabViewController.swift */; };
+		B3BDB9E11D72A7D1002CF9DF /* Legal Service.json in Resources */ = {isa = PBXBuildFile; fileRef = B3BDB9E01D72A7D1002CF9DF /* Legal Service.json */; };
+		B3BDB9E31D72A825002CF9DF /* LegalServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BDB9E21D72A825002CF9DF /* LegalServiceViewController.swift */; };
 		B3D1306B1D686535003D7B01 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D1306A1D686535003D7B01 /* AboutUsViewController.swift */; };
-		B3D130731D687503003D7B01 /* student visa tab bar icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B3D130721D687503003D7B01 /* student visa tab bar icon.png */; };
+		B3E026E51D741D6300D61EDF /* LegalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E026E41D741D6300D61EDF /* LegalService.swift */; };
+		B3E026E91D742A5700D61EDF /* OtherOrganizationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E026E81D742A5700D61EDF /* OtherOrganizationTableViewController.swift */; };
+		B3FAD6661D7D32D5006C01D2 /* DisclaimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FAD6651D7D32D5006C01D2 /* DisclaimerViewController.swift */; };
 		B3FDF6931D68212D00B8B732 /* 2013 Data.json in Resources */ = {isa = PBXBuildFile; fileRef = B3FDF6921D68212D00B8B732 /* 2013 Data.json */; };
 		B3FDF6951D6824EE00B8B732 /* CaseDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FDF6941D6824EE00B8B732 /* CaseDetailsViewController.swift */; };
-		B3FDF6971D682B5C00B8B732 /* working visa tab bar icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B3FDF6961D682B5C00B8B732 /* working visa tab bar icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,13 +71,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EA682A4F75B7F85ADB3918D /* Pods-Working RightsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Working RightsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Working RightsTests/Pods-Working RightsTests.release.xcconfig"; sourceTree = "<group>"; };
+		26102682817EE536F799E582 /* Pods-Working RightsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Working RightsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Working RightsUITests/Pods-Working RightsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3AC888C5C0B81E67300DA04B /* Pods_Working_Rights.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Working_Rights.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6718FBBD63568B4DFB6F05 /* Pods-Working RightsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Working RightsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Working RightsTests/Pods-Working RightsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B8BCFD6D627107AC680DA00 /* Pods_Working_RightsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Working_RightsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF061684AB015911E9D6447 /* Pods-Working Rights.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Working Rights.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Working Rights/Pods-Working Rights.debug.xcconfig"; sourceTree = "<group>"; };
 		B305B1E41D6970080053A161 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		B30D522B1D71A7DB008B74D0 /* WorkRightsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkRightsTableViewController.swift; sourceTree = "<group>"; };
+		B30D522F1D71AA1A008B74D0 /* Work Rights.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Work Rights.json"; sourceTree = "<group>"; };
+		B30D52331D71CF3C008B74D0 /* ConditionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionTableViewController.swift; sourceTree = "<group>"; };
+		B30D52351D71D852008B74D0 /* Work Condition.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Work Condition.json"; sourceTree = "<group>"; };
 		B314819F1D68C7DE00E766D7 /* SwiftSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSpinner.swift; sourceTree = "<group>"; };
 		B322E5851D62FF2E00E59FBD /* VisaInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisaInfoTableViewController.swift; sourceTree = "<group>"; };
 		B322E5891D6325ED00E59FBD /* CellDescriptor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor.plist; sourceTree = "<group>"; };
+		B33DB9F41D6DB059008DC8EB /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		B361B79D1D61D8380067266F /* 2012 Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2012 Data.json"; sourceTree = "<group>"; };
 		B361B79F1D61DE250067266F /* CompaniesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompaniesTableViewController.swift; sourceTree = "<group>"; };
-		B361B7A11D61DE4C0067266F /* CompanyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyCell.swift; sourceTree = "<group>"; };
 		B361B7A31D61E23D0067266F /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 		B3710F811D6096F400AC6316 /* Working Rights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Working Rights.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3710F841D6096F400AC6316 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,20 +104,29 @@
 		B3710FA71D6096F400AC6316 /* Working_RightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Working_RightUITests.swift; sourceTree = "<group>"; };
 		B3710FA91D6096F400AC6316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3769DB31D6984D6008791DE /* main page image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main page image.png"; sourceTree = "<group>"; };
-		B3769DBB1D69990D008791DE /* cases.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cases.png; sourceTree = "<group>"; };
-		B3769DBC1D69990E008791DE /* pay rates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pay rates.png"; sourceTree = "<group>"; };
-		B3769DBD1D69990E008791DE /* visa info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "visa info.png"; sourceTree = "<group>"; };
+		B38824001D6DD398000A1542 /* LegalAidTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalAidTabViewController.swift; sourceTree = "<group>"; };
+		B38824021D6DD406000A1542 /* RightsTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightsTabViewController.swift; sourceTree = "<group>"; };
 		B38FFB6C1D64752600779D66 /* visaInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = visaInfo.json; sourceTree = "<group>"; };
 		B38FFB6E1D64768500779D66 /* Visa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Visa.swift; sourceTree = "<group>"; };
-		B38FFB701D64853700779D66 /* DisclaimerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisclaimerTableViewController.swift; sourceTree = "<group>"; };
 		B38FFB721D64A56D00779D66 /* VisaTypeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisaTypeTableViewController.swift; sourceTree = "<group>"; };
 		B39837D01D66F77600EB67B4 /* PayRatesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayRatesViewController.swift; sourceTree = "<group>"; };
+		B3AE6E801D7FE34A00F3957B /* TipsTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsTabViewController.swift; sourceTree = "<group>"; };
+		B3AE6E841D7FF0F300F3957B /* ResumeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResumeTableViewController.swift; sourceTree = "<group>"; };
+		B3AE6E861D7FF0FE00F3957B /* InterviewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterviewTableViewController.swift; sourceTree = "<group>"; };
+		B3AE6E8A1D7FF37C00F3957B /* Resume.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Resume.json; sourceTree = "<group>"; };
+		B3AE6E8C1D7FF4D100F3957B /* Interview.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Interview.json; sourceTree = "<group>"; };
 		B3B7894E1D658B43007BEDAA /* VisaTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisaTabViewController.swift; sourceTree = "<group>"; };
+		B3BDB9E01D72A7D1002CF9DF /* Legal Service.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Legal Service.json"; sourceTree = "<group>"; };
+		B3BDB9E21D72A825002CF9DF /* LegalServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalServiceViewController.swift; sourceTree = "<group>"; };
+		B3D0DC013041FD8B4D081B30 /* Pods-Working RightsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Working RightsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Working RightsUITests/Pods-Working RightsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B3D1306A1D686535003D7B01 /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
-		B3D130721D687503003D7B01 /* student visa tab bar icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "student visa tab bar icon.png"; sourceTree = "<group>"; };
+		B3E026E41D741D6300D61EDF /* LegalService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalService.swift; sourceTree = "<group>"; };
+		B3E026E81D742A5700D61EDF /* OtherOrganizationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherOrganizationTableViewController.swift; sourceTree = "<group>"; };
+		B3FAD6651D7D32D5006C01D2 /* DisclaimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisclaimerViewController.swift; sourceTree = "<group>"; };
 		B3FDF6921D68212D00B8B732 /* 2013 Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2013 Data.json"; sourceTree = "<group>"; };
 		B3FDF6941D6824EE00B8B732 /* CaseDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaseDetailsViewController.swift; sourceTree = "<group>"; };
-		B3FDF6961D682B5C00B8B732 /* working visa tab bar icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "working visa tab bar icon.png"; sourceTree = "<group>"; };
+		CF22BB3E0144F92BA14F924E /* Pods_Working_RightsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Working_RightsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FC82E10B484ACC5EBE274A /* Pods-Working Rights.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Working Rights.release.xcconfig"; path = "Pods/Target Support Files/Pods-Working Rights/Pods-Working Rights.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BE452B6EB4664B1BC5BB8D2 /* Pods_Working_Rights.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FB8AD8A215B9894E928C205 /* Pods_Working_RightsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,32 +150,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BABDED81B10D6807638DB76 /* Pods_Working_RightsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C904E98295FF221519F464C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AC888C5C0B81E67300DA04B /* Pods_Working_Rights.framework */,
+				4B8BCFD6D627107AC680DA00 /* Pods_Working_RightsTests.framework */,
+				CF22BB3E0144F92BA14F924E /* Pods_Working_RightsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E3580C27B1CD090F38F6BC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FF061684AB015911E9D6447 /* Pods-Working Rights.debug.xcconfig */,
+				E1FC82E10B484ACC5EBE274A /* Pods-Working Rights.release.xcconfig */,
+				3C6718FBBD63568B4DFB6F05 /* Pods-Working RightsTests.debug.xcconfig */,
+				1EA682A4F75B7F85ADB3918D /* Pods-Working RightsTests.release.xcconfig */,
+				B3D0DC013041FD8B4D081B30 /* Pods-Working RightsUITests.debug.xcconfig */,
+				26102682817EE536F799E582 /* Pods-Working RightsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B361B79C1D61D82B0067266F /* Data */ = {
 			isa = PBXGroup;
 			children = (
 				B361B79D1D61D8380067266F /* 2012 Data.json */,
 				B3FDF6921D68212D00B8B732 /* 2013 Data.json */,
 				B38FFB6C1D64752600779D66 /* visaInfo.json */,
+				B30D522F1D71AA1A008B74D0 /* Work Rights.json */,
+				B30D52351D71D852008B74D0 /* Work Condition.json */,
+				B3BDB9E01D72A7D1002CF9DF /* Legal Service.json */,
+				B3AE6E8C1D7FF4D100F3957B /* Interview.json */,
+				B3AE6E8A1D7FF37C00F3957B /* Resume.json */,
 			);
-			name = Data;
+			path = Data;
 			sourceTree = "<group>";
 		};
 		B3710F781D6096F400AC6316 = {
 			isa = PBXGroup;
 			children = (
 				B3FDF68F1D680DCF00B8B732 /* Image */,
-				B3FDF68C1D680DA700B8B732 /* Icon */,
 				B361B79C1D61D82B0067266F /* Data */,
 				B3710F831D6096F400AC6316 /* Working Right */,
 				B3710F9B1D6096F400AC6316 /* Working RightTests */,
 				B3710FA61D6096F400AC6316 /* Working RightUITests */,
 				B3710F821D6096F400AC6316 /* Products */,
+				1E3580C27B1CD090F38F6BC1 /* Pods */,
+				0C904E98295FF221519F464C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,19 +225,28 @@
 				B3710F881D6096F400AC6316 /* Main.storyboard */,
 				B3710F841D6096F400AC6316 /* AppDelegate.swift */,
 				B3710F861D6096F400AC6316 /* ViewController.swift */,
+				B33DB9F41D6DB059008DC8EB /* MenuCell.swift */,
+				B3FAD6651D7D32D5006C01D2 /* DisclaimerViewController.swift */,
 				B3D1306A1D686535003D7B01 /* AboutUsViewController.swift */,
 				B3B7894E1D658B43007BEDAA /* VisaTabViewController.swift */,
 				B38FFB721D64A56D00779D66 /* VisaTypeTableViewController.swift */,
 				B322E5851D62FF2E00E59FBD /* VisaInfoTableViewController.swift */,
 				B38FFB6E1D64768500779D66 /* Visa.swift */,
 				B361B79F1D61DE250067266F /* CompaniesTableViewController.swift */,
-				B361B7A11D61DE4C0067266F /* CompanyCell.swift */,
 				B361B7A31D61E23D0067266F /* Company.swift */,
 				B3FDF6941D6824EE00B8B732 /* CaseDetailsViewController.swift */,
 				B39837D01D66F77600EB67B4 /* PayRatesViewController.swift */,
-				B38FFB701D64853700779D66 /* DisclaimerTableViewController.swift */,
-				B314819F1D68C7DE00E766D7 /* SwiftSpinner.swift */,
-				B305B1E41D6970080053A161 /* Helper.swift */,
+				B38824021D6DD406000A1542 /* RightsTabViewController.swift */,
+				B30D522B1D71A7DB008B74D0 /* WorkRightsTableViewController.swift */,
+				B30D52331D71CF3C008B74D0 /* ConditionTableViewController.swift */,
+				B38824001D6DD398000A1542 /* LegalAidTabViewController.swift */,
+				B3BDB9E21D72A825002CF9DF /* LegalServiceViewController.swift */,
+				B3E026E41D741D6300D61EDF /* LegalService.swift */,
+				B3E026E81D742A5700D61EDF /* OtherOrganizationTableViewController.swift */,
+				B3AE6E801D7FE34A00F3957B /* TipsTabViewController.swift */,
+				B3AE6E861D7FF0FE00F3957B /* InterviewTableViewController.swift */,
+				B3AE6E841D7FF0F300F3957B /* ResumeTableViewController.swift */,
+				B3AE6E7F1D7FDCAD00F3957B /* Helper */,
 				B3710F8E1D6096F400AC6316 /* Assets.xcassets */,
 				B3710F901D6096F400AC6316 /* LaunchScreen.storyboard */,
 				B3710F931D6096F400AC6316 /* Info.plist */,
@@ -201,21 +274,18 @@
 			path = "Working RightUITests";
 			sourceTree = "<group>";
 		};
-		B3FDF68C1D680DA700B8B732 /* Icon */ = {
+		B3AE6E7F1D7FDCAD00F3957B /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				B3FDF6961D682B5C00B8B732 /* working visa tab bar icon.png */,
-				B3D130721D687503003D7B01 /* student visa tab bar icon.png */,
+				B314819F1D68C7DE00E766D7 /* SwiftSpinner.swift */,
+				B305B1E41D6970080053A161 /* Helper.swift */,
 			);
-			path = Icon;
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		B3FDF68F1D680DCF00B8B732 /* Image */ = {
 			isa = PBXGroup;
 			children = (
-				B3769DBB1D69990D008791DE /* cases.png */,
-				B3769DBC1D69990E008791DE /* pay rates.png */,
-				B3769DBD1D69990E008791DE /* visa info.png */,
 				B3769DB31D6984D6008791DE /* main page image.png */,
 			);
 			path = Image;
@@ -228,9 +298,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3710FAC1D6096F400AC6316 /* Build configuration list for PBXNativeTarget "Working Rights" */;
 			buildPhases = (
+				E0F95165987BCBB12FA3EEB7 /* [CP] Check Pods Manifest.lock */,
 				B3710F7D1D6096F400AC6316 /* Sources */,
 				B3710F7E1D6096F400AC6316 /* Frameworks */,
 				B3710F7F1D6096F400AC6316 /* Resources */,
+				340F817FA3361F47EAA8561E /* [CP] Embed Pods Frameworks */,
+				36481F3BE7BE3AB2C8E88BCF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,9 +318,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3710FAF1D6096F400AC6316 /* Build configuration list for PBXNativeTarget "Working RightsTests" */;
 			buildPhases = (
+				25F6AB75616C6E944FA689F5 /* [CP] Check Pods Manifest.lock */,
 				B3710F941D6096F400AC6316 /* Sources */,
 				B3710F951D6096F400AC6316 /* Frameworks */,
 				B3710F961D6096F400AC6316 /* Resources */,
+				B96B09FADE3B404B02EE49E5 /* [CP] Embed Pods Frameworks */,
+				081B8D5C66C327951792FCDC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -263,9 +339,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3710FB21D6096F400AC6316 /* Build configuration list for PBXNativeTarget "Working RightsUITests" */;
 			buildPhases = (
+				4517239D2FBD413C54C0067A /* [CP] Check Pods Manifest.lock */,
 				B3710F9F1D6096F400AC6316 /* Sources */,
 				B3710FA01D6096F400AC6316 /* Frameworks */,
 				B3710FA11D6096F400AC6316 /* Resources */,
+				ACA8FC1B4B6F24B51EA8FFAB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -330,17 +408,17 @@
 			files = (
 				B3769DB41D6984D6008791DE /* main page image.png in Resources */,
 				B3710F921D6096F400AC6316 /* LaunchScreen.storyboard in Resources */,
-				B3FDF6971D682B5C00B8B732 /* working visa tab bar icon.png in Resources */,
+				B30D52301D71AA1A008B74D0 /* Work Rights.json in Resources */,
+				B3AE6E8B1D7FF37C00F3957B /* Resume.json in Resources */,
 				B322E58A1D6325ED00E59FBD /* CellDescriptor.plist in Resources */,
 				B38FFB6D1D64752600779D66 /* visaInfo.json in Resources */,
 				B361B79E1D61D8380067266F /* 2012 Data.json in Resources */,
-				B3769DBE1D69990E008791DE /* cases.png in Resources */,
-				B3769DC01D69990E008791DE /* visa info.png in Resources */,
 				B3710F8F1D6096F400AC6316 /* Assets.xcassets in Resources */,
-				B3D130731D687503003D7B01 /* student visa tab bar icon.png in Resources */,
-				B3769DBF1D69990E008791DE /* pay rates.png in Resources */,
 				B3FDF6931D68212D00B8B732 /* 2013 Data.json in Resources */,
+				B3BDB9E11D72A7D1002CF9DF /* Legal Service.json in Resources */,
 				B3710F8A1D6096F400AC6316 /* Main.storyboard in Resources */,
+				B30D52361D71D852008B74D0 /* Work Condition.json in Resources */,
+				B3AE6E8D1D7FF4D100F3957B /* Interview.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,27 +438,160 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		081B8D5C66C327951792FCDC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Working RightsTests/Pods-Working RightsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25F6AB75616C6E944FA689F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		340F817FA3361F47EAA8561E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Working Rights/Pods-Working Rights-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36481F3BE7BE3AB2C8E88BCF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Working Rights/Pods-Working Rights-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4517239D2FBD413C54C0067A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ACA8FC1B4B6F24B51EA8FFAB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Working RightsUITests/Pods-Working RightsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B96B09FADE3B404B02EE49E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Working RightsTests/Pods-Working RightsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0F95165987BCBB12FA3EEB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B3710F7D1D6096F400AC6316 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B38FFB6F1D64768500779D66 /* Visa.swift in Sources */,
-				B38FFB711D64853700779D66 /* DisclaimerTableViewController.swift in Sources */,
-				B361B7A21D61DE4C0067266F /* CompanyCell.swift in Sources */,
 				B3710F871D6096F400AC6316 /* ViewController.swift in Sources */,
 				B31481A01D68C7DE00E766D7 /* SwiftSpinner.swift in Sources */,
 				B3D1306B1D686535003D7B01 /* AboutUsViewController.swift in Sources */,
+				B3AE6E811D7FE34A00F3957B /* TipsTabViewController.swift in Sources */,
+				B3BDB9E31D72A825002CF9DF /* LegalServiceViewController.swift in Sources */,
+				B38824031D6DD406000A1542 /* RightsTabViewController.swift in Sources */,
 				B38FFB731D64A56D00779D66 /* VisaTypeTableViewController.swift in Sources */,
+				B38824011D6DD398000A1542 /* LegalAidTabViewController.swift in Sources */,
 				B305B1E51D6970080053A161 /* Helper.swift in Sources */,
 				B3710F8D1D6096F400AC6316 /* Working_Right.xcdatamodeld in Sources */,
 				B3710F851D6096F400AC6316 /* AppDelegate.swift in Sources */,
 				B39837D11D66F77600EB67B4 /* PayRatesViewController.swift in Sources */,
+				B3AE6E871D7FF0FE00F3957B /* InterviewTableViewController.swift in Sources */,
+				B3E026E51D741D6300D61EDF /* LegalService.swift in Sources */,
 				B361B7A01D61DE250067266F /* CompaniesTableViewController.swift in Sources */,
+				B30D522C1D71A7DB008B74D0 /* WorkRightsTableViewController.swift in Sources */,
+				B3AE6E851D7FF0F300F3957B /* ResumeTableViewController.swift in Sources */,
 				B322E5861D62FF2E00E59FBD /* VisaInfoTableViewController.swift in Sources */,
+				B3FAD6661D7D32D5006C01D2 /* DisclaimerViewController.swift in Sources */,
 				B3B7894F1D658B43007BEDAA /* VisaTabViewController.swift in Sources */,
 				B3FDF6951D6824EE00B8B732 /* CaseDetailsViewController.swift in Sources */,
+				B33DB9F51D6DB059008DC8EB /* MenuCell.swift in Sources */,
 				B361B7A41D61E23D0067266F /* Company.swift in Sources */,
+				B30D52341D71CF3C008B74D0 /* ConditionTableViewController.swift in Sources */,
+				B3E026E91D742A5700D61EDF /* OtherOrganizationTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,7 +683,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -511,7 +722,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -520,6 +731,7 @@
 		};
 		B3710FAD1D6096F400AC6316 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF061684AB015911E9D6447 /* Pods-Working Rights.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -533,6 +745,7 @@
 		};
 		B3710FAE1D6096F400AC6316 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1FC82E10B484ACC5EBE274A /* Pods-Working Rights.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -546,6 +759,7 @@
 		};
 		B3710FB01D6096F400AC6316 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C6718FBBD63568B4DFB6F05 /* Pods-Working RightsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Working RightTests/Info.plist";
@@ -558,6 +772,7 @@
 		};
 		B3710FB11D6096F400AC6316 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EA682A4F75B7F85ADB3918D /* Pods-Working RightsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Working RightTests/Info.plist";
@@ -570,6 +785,7 @@
 		};
 		B3710FB31D6096F400AC6316 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3D0DC013041FD8B4D081B30 /* Pods-Working RightsUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Working RightUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -581,6 +797,7 @@
 		};
 		B3710FB41D6096F400AC6316 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26102682817EE536F799E582 /* Pods-Working RightsUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Working RightUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

@@ -77,9 +77,9 @@ class VisaTypeTableViewController: UITableViewController {
             {
                 // Try to fetch json data from file and convert to NSArray
                 let jsonData = try NSData(contentsOfFile: path, options: .DataReadingMappedIfSafe)
-                let result = try NSJSONSerialization.JSONObjectWithData(jsonData, options: .MutableContainers) as! NSArray
+                let result = try NSJSONSerialization.JSONObjectWithData(jsonData, options: .MutableContainers) as! [NSDictionary]
                 
-                for item in (result as! [NSDictionary])
+                for item in result
                 {
                     // Read each line and fetch data, then assign to a new visa
                     if item["type"] as! String == visaType

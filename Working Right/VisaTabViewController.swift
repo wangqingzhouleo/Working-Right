@@ -10,7 +10,7 @@ import UIKit
 
 class VisaTabViewController: UITabBarController {
     
-    var navigationTitle = ["Student", "Working", "Other"]
+    var navigationTitle = ["Student", "Working"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,6 +29,8 @@ class VisaTabViewController: UITabBarController {
         
 //        let otherVC = viewControllers![2] as! VisaTypeTableViewController
 //        otherVC.visaType = "other"
+        
+        UITabBar.appearance().tintColor = UIColor.redColor()
     }
 
     override func didReceiveMemoryWarning() {
@@ -41,13 +43,8 @@ class VisaTabViewController: UITabBarController {
         switch item {
         case tabBar.items![0]:
             navigationItem.title = navigationTitle[0]
-            break
         case tabBar.items![1]:
             navigationItem.title = navigationTitle[1]
-            break
-        case tabBar.items![2]:
-            navigationItem.title = navigationTitle[2]
-            break
         default:
             break
         }

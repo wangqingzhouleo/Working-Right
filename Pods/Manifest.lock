@@ -1,0 +1,12 @@
+PODS:
+  - Instructions (0.4.3)
+
+DEPENDENCIES:
+  - Instructions
+
+SPEC CHECKSUMS:
+  Instructions: 18124d63eb8b08828e1124432de115aa48db3669
+
+PODFILE CHECKSUM: e12b13d5ea30a918287e75cb9eadaedf9735fdfb
+
+COCOAPODS: 1.0.1

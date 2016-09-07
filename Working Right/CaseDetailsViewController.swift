@@ -25,17 +25,40 @@ class CaseDetailsViewController: UIViewController, UIWebViewDelegate {
         webView.delegate = self
         
         webView.backgroundColor = UIColor.clearColor()
-        webStartLoad("Loading website\nPlease wait")
-        timeOut = NSTimer.scheduledTimerWithTimeInterval(10, target: self, selector: #selector(self.cancelWeb), userInfo: nil, repeats: false)
+        
+//        webStartLoad("Loading website\nPlease wait")
+//        timeOut = NSTimer.scheduledTimerWithTimeInterval(6, target: self, selector: #selector(self.cancelWeb), userInfo: nil, repeats: false)
     }
     
 //    func webViewDidStartLoad(webView: UIWebView) {
 //        SwiftSpinner.show("Loading website\nPlease wait")
 //    }
-//    
+    
+    func webViewDidStartLoad(webView: UIWebView) {
+        // Show activity indicator to tell user the app is loading data.
+        UIApplication.sharedApplication().networkActivityIndicatorVisible = true
+        if shouldWebStartLoad()
+        {
+            timeOut = NSTimer.scheduledTimerWithTimeInterval(6, target: self, selector: #selector(self.cancelWeb), userInfo: nil, repeats: false)
+        }
+    }
+    
+    func webView(webView: UIWebView, didFailLoadWithError error: NSError?) {
+        // Hide activity indicator when load failed.
+        UIApplication.sharedApplication().networkActivityIndicatorVisible = false
+        SwiftSpinner.show(error!.localizedDescription, animated: false).addTapHandler({
+            SwiftSpinner.hide()
+            self.navigationController?.popViewControllerAnimated(true)
+        })
+    }
+    
     func webViewDidFinishLoad(webView: UIWebView) {
+        UIApplication.sharedApplication().networkActivityIndicatorVisible = false
         SwiftSpinner.hide()
-        timeOut.invalidate()
+        if timeOut != nil
+        {
+            timeOut!.invalidate()
+        }
     }
     
 //    override func viewWillLayoutSubviews() {
@@ -49,10 +72,19 @@ class CaseDetailsViewController: UIViewController, UIWebViewDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+//    func webView(webView: UIWebView, didFailLoadWithError error: NSError?) {
+//        SwiftSpinner.show("Error when loading page\nPlease check your network connection", animated: false).addTapHandler({
+//            SwiftSpinner.hide()
+//            self.navigationController?.popViewControllerAnimated(true)
+//        })
+//        timeOut.invalidate()
+//    }
+    
     func cancelWeb()
     {
+        UIApplication.sharedApplication().networkActivityIndicatorVisible = false
         // Display error message when load web time out, and dismiss this view controller when user tapped on screen.
-        SwiftSpinner.show("Connection time out\nPlease try later", animated: false).addTapHandler({
+        SwiftSpinner.show(webTimeOutMsg, animated: false).addTapHandler({
             SwiftSpinner.hide()
             self.navigationController?.popViewControllerAnimated(true)
         })
