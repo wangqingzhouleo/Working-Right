@@ -8,6 +8,40 @@
 
 import UIKit
 import SystemConfiguration
+import Firebase
+import CoreData
+
+var managedObject: NSManagedObjectContext!
+var appDelegate: AppDelegate!
+var user: User?
+
+var topQuestions: [Question] = []
+
+var tmpUser = ["", "", ""]
+
+func fetchUser()
+{
+    // Retreive the data from database.
+    let fetchRequest = NSFetchRequest()
+    let entityDescription = NSEntityDescription.entityForName("User", inManagedObjectContext: managedObject)
+    fetchRequest.entity = entityDescription
+    
+    // Try to retrieve data from entity.
+    do
+    {
+        var result: [User] = []
+        result = try managedObject.executeFetchRequest(fetchRequest) as! [User]
+        if result.count > 0
+        {
+            user = result[0]
+        }
+    }
+    catch
+    {
+        let fetchError = error as NSError
+        print(fetchError)
+    }
+}
 
 var timeOut: NSTimer?
 var webTimeOutMsg = "Connection time out.\nPlease try later."
@@ -16,6 +50,26 @@ struct address {
     var lat: Double
     var long: Double
 }
+
+var allQuestions: [Question] = []
+struct Question {
+    var key: String
+    var title: String
+    var desc: String
+    var date: NSDate
+    var like: Int
+    var dislike: Int
+    var answers: [Answer]
+}
+
+struct Answer {
+    var key: String
+    var content: String
+    var like: Int
+    var dislike: Int
+}
+
+let firebase: FIRDatabaseReference = FIRDatabase.database().reference()
 
 // Function copied from http://stackoverflow.com/a/30743763/6197704
 // Used for chech the network connection.
@@ -41,6 +95,10 @@ func shouldWebStartLoad() -> Bool
     if isConnectedToNetwork()
     {
         SwiftSpinner.show("Loading page from server\nPlease wait")
+    }
+    else
+    {
+        SwiftSpinner.show("Your iPhone is not connected to the Internet", animated: false)
     }
     
     return isConnectedToNetwork()

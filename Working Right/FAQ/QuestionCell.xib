@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="85" id="KGk-i7-Jjw" customClass="QuestionCell" customModule="Working_Rights" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="434" height="77.5"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="434" height="77"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Byt-ph-RIc">
+                        <rect key="frame" x="8" y="8" width="418" height="28"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ow4-hw-Ydr">
+                        <rect key="frame" x="8" y="49" width="418" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Byt-ph-RIc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="5bF-vo-cG4"/>
+                    <constraint firstItem="Byt-ph-RIc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="9el-oi-V7g"/>
+                    <constraint firstItem="Byt-ph-RIc" firstAttribute="trailing" secondItem="Ow4-hw-Ydr" secondAttribute="trailing" id="Scd-74-Acw"/>
+                    <constraint firstItem="Byt-ph-RIc" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="bWz-zY-Eu8"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Ow4-hw-Ydr" secondAttribute="bottom" id="h4E-tm-fbg"/>
+                    <constraint firstItem="Ow4-hw-Ydr" firstAttribute="top" secondItem="Byt-ph-RIc" secondAttribute="bottom" constant="13" id="ipJ-T9-qHF"/>
+                    <constraint firstItem="Byt-ph-RIc" firstAttribute="leading" secondItem="Ow4-hw-Ydr" secondAttribute="leading" id="xRG-98-UsU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descLabel" destination="Ow4-hw-Ydr" id="euq-m0-y0C"/>
+                <outlet property="titleLabel" destination="Byt-ph-RIc" id="D7N-55-l15"/>
+            </connections>
+            <point key="canvasLocation" x="318" y="298.75"/>
+        </tableViewCell>
+    </objects>
+</document>

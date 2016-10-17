@@ -8,22 +8,23 @@
 
 import UIKit
 import Instructions
+import AVFoundation
 
-class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, CoachMarksControllerDataSource, CoachMarksControllerDelegate {
+class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, CoachMarksControllerDataSource, CoachMarksControllerDelegate, UICollectionViewDelegateFlowLayout {
     
     // Use Coach Mark package to display instructions for the app
     let coachMarksController = CoachMarksController()
     lazy var pointOfInterest = [UIView?](count: 6, repeatedValue: nil)
-    let hintText = ["View visa information", "View cases history", "Search pay scale", "Working rights and conditions", "Display legal services", "Tips for finding a job"]
+    let hintText = ["View visa information and working rights", "View cases history", "Search minimum pay or pay scale", "Frequently asked questions", "Display legal services", "Tips for finding a job"]
 
     @IBOutlet weak var menuCollectionView: UICollectionView!
-    @IBOutlet weak var workingRightsImage: UIImageView!
+    @IBOutlet weak var container: UIView!
     
 //    let imageName = ["visa info.png", "cases.png", "pay rates.png", "cases.png"]
 //    let cellIdentifier = ["VisaInfoCell", "CasesCell", "PayRatesCell"]
-    let menuLabelText = ["Visa Info", "Cases", "Pay Rates", "Rights", "Legal Aid", "Job Tips"]
+    let menuLabelText = ["Visa & Rights", "Cases", "Pay Rates", "Q&A", "Legal Aid", "Job Tips"]
     
-    let viewControllerIdentifier = ["VisaTabViewController", "CompaniesTableViewController", "PayRatesViewController", "RightsTabViewController", "LegalAidTabViewController", "TipsTabViewController"]
+    let viewControllerIdentifier = ["VisaTabViewController", "CompaniesTableViewController", "PayTabViewController", "FAQTableViewController", "LegalServiceViewController", "TipsTabViewController"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,7 +35,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         menuCollectionView.dataSource = self
         menuCollectionView.backgroundColor = UIColor.clearColor()
         menuCollectionView.scrollEnabled = false
-        workingRightsImage.image = UIImage(named: "main page image.png")
+        menuCollectionView.contentInset.top = -15
         
         self.coachMarksController.dataSource = self
         self.coachMarksController.allowOverlayTap = true
@@ -47,6 +48,19 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
 //        let width: CGFloat = UIScreen.mainScreen().bounds.width
 //        let height: CGFloat = width * 736 / 880
 //        workingRightsImage.image = imageResize(UIImage(named: "main page image.png")!, sizeChange: CGSize(width: width, height: height))
+        
+//        if let layout = menuCollectionView?.collectionViewLayout as? MenuLayout {
+//            layout.delegate = self
+//        }
+        
+        let leftButton = UIBarButtonItem()
+        leftButton.title = "Back"
+        navigationItem.backBarButtonItem = leftButton
+        
+        navigationController?.navigationBar.barTintColor = UIColor(red: 0.8471, green: 0, blue: 0.1529, alpha: 1)
+        automaticallyAdjustsScrollViewInsets = false
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -99,6 +113,12 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         return cell
     }
     
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
+        let width = collectionView.bounds.size.width / 3
+        let height = collectionView.bounds.size.height / 2
+        return CGSizeMake(width - 10, height)
+    }
+    
     // Mandatory function from coach marks, return number of coach marks to display
     func numberOfCoachMarksForCoachMarksController(coachMarksController: CoachMarksController) -> Int {
         return menuLabelText.count
@@ -143,6 +163,18 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             }
         }
     }
-
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "ContainerSegue"
+        {
+            let vc = segue.destinationViewController as! TopQuestionsViewController
+            vc.delegate = self
+        }
+    }
+    
+//    func aaa() {
+//        let url = NSURL(string: "itms://itunes.apple.com/de/app/Working-Rights/id1146121177?mt=8")
+//        UIApplication.sharedApplication().openURL(url!)
+//    }
 }
 

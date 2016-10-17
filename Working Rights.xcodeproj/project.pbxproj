@@ -15,10 +15,25 @@
 		B30D52301D71AA1A008B74D0 /* Work Rights.json in Resources */ = {isa = PBXBuildFile; fileRef = B30D522F1D71AA1A008B74D0 /* Work Rights.json */; };
 		B30D52341D71CF3C008B74D0 /* ConditionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30D52331D71CF3C008B74D0 /* ConditionTableViewController.swift */; };
 		B30D52361D71D852008B74D0 /* Work Condition.json in Resources */ = {isa = PBXBuildFile; fileRef = B30D52351D71D852008B74D0 /* Work Condition.json */; };
+		B31343291D8FAFD5004BBD94 /* Hospitality Job Description.json in Resources */ = {isa = PBXBuildFile; fileRef = B31343281D8FAFD5004BBD94 /* Hospitality Job Description.json */; };
+		B313432B1D8FB015004BBD94 /* Fast Food Job Description.json in Resources */ = {isa = PBXBuildFile; fileRef = B313432A1D8FB015004BBD94 /* Fast Food Job Description.json */; };
 		B31481A01D68C7DE00E766D7 /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B314819F1D68C7DE00E766D7 /* SwiftSpinner.swift */; };
+		B31566A91D9BADEC0083C75F /* StringScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31566A81D9BADEC0083C75F /* StringScore.swift */; };
+		B31A74751D899B0E0074D91A /* PotentialMinPayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31A74741D899B0E0074D91A /* PotentialMinPayViewController.swift */; };
+		B31A74771D899DFB0074D91A /* MinPayDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31A74761D899DFB0074D91A /* MinPayDataController.swift */; };
+		B31AB0CB1D9BC7EA000B9DFC /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31AB0CA1D9BC7EA000B9DFC /* SettingTableViewController.swift */; };
 		B322E5861D62FF2E00E59FBD /* VisaInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322E5851D62FF2E00E59FBD /* VisaInfoTableViewController.swift */; };
 		B322E58A1D6325ED00E59FBD /* CellDescriptor.plist in Resources */ = {isa = PBXBuildFile; fileRef = B322E5891D6325ED00E59FBD /* CellDescriptor.plist */; };
+		B337FAFB1D86637B00E64E79 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B337FAFA1D86637B00E64E79 /* TestViewController.swift */; };
+		B337FAFD1D86684500E64E79 /* sample resume.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B337FAFC1D86684500E64E79 /* sample resume.pdf */; };
+		B337FAFF1D867E2C00E64E79 /* PayTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B337FAFE1D867E2C00E64E79 /* PayTabViewController.swift */; };
 		B33DB9F51D6DB059008DC8EB /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33DB9F41D6DB059008DC8EB /* MenuCell.swift */; };
+		B34BDD361D996BE500CEA4CF /* AddAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34BDD351D996BE500CEA4CF /* AddAnswerViewController.swift */; };
+		B34BDD3A1D9982A400CEA4CF /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34BDD381D9982A400CEA4CF /* User+CoreDataProperties.swift */; };
+		B34BDD3B1D9982A400CEA4CF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34BDD391D9982A400CEA4CF /* User.swift */; };
+		B34BDD3F1D99893F00CEA4CF /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34BDD3E1D99893F00CEA4CF /* TransitionManager.swift */; };
+		B34BDD421D998E7700CEA4CF /* RegisterPageDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34BDD411D998E7700CEA4CF /* RegisterPageDataViewController.swift */; };
+		B34BDD4C1D99911E00CEA4CF /* MainRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34BDD4B1D99911E00CEA4CF /* MainRegisterViewController.swift */; };
 		B361B79E1D61D8380067266F /* 2012 Data.json in Resources */ = {isa = PBXBuildFile; fileRef = B361B79D1D61D8380067266F /* 2012 Data.json */; };
 		B361B7A01D61DE250067266F /* CompaniesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B361B79F1D61DE250067266F /* CompaniesTableViewController.swift */; };
 		B361B7A41D61E23D0067266F /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = B361B7A31D61E23D0067266F /* Company.swift */; };
@@ -31,23 +46,54 @@
 		B3710F9D1D6096F400AC6316 /* Working_RightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3710F9C1D6096F400AC6316 /* Working_RightTests.swift */; };
 		B3710FA81D6096F400AC6316 /* Working_RightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3710FA71D6096F400AC6316 /* Working_RightUITests.swift */; };
 		B3769DB41D6984D6008791DE /* main page image.png in Resources */ = {isa = PBXBuildFile; fileRef = B3769DB31D6984D6008791DE /* main page image.png */; };
-		B38824011D6DD398000A1542 /* LegalAidTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38824001D6DD398000A1542 /* LegalAidTabViewController.swift */; };
+		B383B4DB1D87DFD3001D979C /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B383B4DA1D87DFD3001D979C /* SwiftyJSON.swift */; };
+		B383B4DF1D87F7FB001D979C /* Hospitality.json in Resources */ = {isa = PBXBuildFile; fileRef = B383B4DE1D87F7FB001D979C /* Hospitality.json */; };
+		B383B4E11D87F927001D979C /* MinPayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B383B4E01D87F927001D979C /* MinPayViewController.swift */; };
+		B383B4E51D87FBEB001D979C /* ResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B383B4E41D87FBEB001D979C /* ResultTableViewController.swift */; };
 		B38824031D6DD406000A1542 /* RightsTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38824021D6DD406000A1542 /* RightsTabViewController.swift */; };
 		B38FFB6D1D64752600779D66 /* visaInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = B38FFB6C1D64752600779D66 /* visaInfo.json */; };
 		B38FFB6F1D64768500779D66 /* Visa.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38FFB6E1D64768500779D66 /* Visa.swift */; };
 		B38FFB731D64A56D00779D66 /* VisaTypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38FFB721D64A56D00779D66 /* VisaTypeTableViewController.swift */; };
-		B39837D11D66F77600EB67B4 /* PayRatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39837D01D66F77600EB67B4 /* PayRatesViewController.swift */; };
+		B39095451D92C9840087690C /* FAQTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39095441D92C9840087690C /* FAQTableViewController.swift */; };
+		B390954E1D92D3BC0087690C /* FAQCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B390954C1D92D3BC0087690C /* FAQCell.swift */; };
+		B390954F1D92D3BC0087690C /* FAQCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B390954D1D92D3BC0087690C /* FAQCell.xib */; };
+		B39095511D92DA3E0087690C /* SearchFAQTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39095501D92DA3E0087690C /* SearchFAQTableViewController.swift */; };
+		B39095541D92DD190087690C /* SearchFAQCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39095521D92DD190087690C /* SearchFAQCell.swift */; };
+		B39095551D92DD190087690C /* SearchFAQCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B39095531D92DD190087690C /* SearchFAQCell.xib */; };
+		B39095571D92EBB10087690C /* AddNewQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39095561D92EBB10087690C /* AddNewQuestionViewController.swift */; };
+		B39837D11D66F77600EB67B4 /* PayScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39837D01D66F77600EB67B4 /* PayScaleViewController.swift */; };
+		B39B6DED1D9A807500CA0AEB /* TopQuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39B6DEC1D9A807500CA0AEB /* TopQuestionsViewController.swift */; };
+		B39B6DEF1D9A807F00CA0AEB /* TopQuestionDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39B6DEE1D9A807F00CA0AEB /* TopQuestionDataViewController.swift */; };
+		B39B6DF11D9AB85D00CA0AEB /* SortCompanyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39B6DF01D9AB85D00CA0AEB /* SortCompanyTableViewController.swift */; };
+		B39E1DB01D967CB3001670A3 /* Cleaning Services.json in Resources */ = {isa = PBXBuildFile; fileRef = B39E1DAF1D967CB3001670A3 /* Cleaning Services.json */; };
+		B39E1DB21D967CB8001670A3 /* Cleaning Services Job Description.json in Resources */ = {isa = PBXBuildFile; fileRef = B39E1DB11D967CB8001670A3 /* Cleaning Services Job Description.json */; };
+		B39F35D61D996478008C7B5C /* QuestionComponentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39F35D41D996478008C7B5C /* QuestionComponentCell.swift */; };
+		B39F35D71D996478008C7B5C /* QuestionComponentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B39F35D51D996478008C7B5C /* QuestionComponentCell.xib */; };
+		B3A823451D8FFF160048AE4C /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A823441D8FFF160048AE4C /* SearchTableViewController.swift */; };
 		B3AE6E811D7FE34A00F3957B /* TipsTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AE6E801D7FE34A00F3957B /* TipsTabViewController.swift */; };
 		B3AE6E851D7FF0F300F3957B /* ResumeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AE6E841D7FF0F300F3957B /* ResumeTableViewController.swift */; };
 		B3AE6E871D7FF0FE00F3957B /* InterviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AE6E861D7FF0FE00F3957B /* InterviewTableViewController.swift */; };
 		B3AE6E8B1D7FF37C00F3957B /* Resume.json in Resources */ = {isa = PBXBuildFile; fileRef = B3AE6E8A1D7FF37C00F3957B /* Resume.json */; };
 		B3AE6E8D1D7FF4D100F3957B /* Interview.json in Resources */ = {isa = PBXBuildFile; fileRef = B3AE6E8C1D7FF4D100F3957B /* Interview.json */; };
+		B3AEA6A41D98F90600CC26B8 /* QuestionDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AEA6A31D98F90600CC26B8 /* QuestionDescriptionViewController.swift */; };
+		B3AEA6A61D99193300CC26B8 /* AnswersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AEA6A51D99193300CC26B8 /* AnswersTableViewController.swift */; };
+		B3AEA6AB1D99223700CC26B8 /* QuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AEA6A91D99223700CC26B8 /* QuestionCell.swift */; };
+		B3AEA6AC1D99223700CC26B8 /* QuestionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3AEA6AA1D99223700CC26B8 /* QuestionCell.xib */; };
+		B3AEA6B11D99227C00CC26B8 /* AnswerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AEA6AF1D99227C00CC26B8 /* AnswerCell.swift */; };
+		B3AEA6B21D99227C00CC26B8 /* AnswerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3AEA6B01D99227C00CC26B8 /* AnswerCell.xib */; };
+		B3AEA6B41D993D6D00CC26B8 /* AnswerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AEA6B31D993D6D00CC26B8 /* AnswerDetailViewController.swift */; };
+		B3B6623F1D93A8D80088A57A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3B6623E1D93A8D80088A57A /* GoogleService-Info.plist */; };
+		B3B662431D93DBAF0088A57A /* CaseMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B662421D93DBAF0088A57A /* CaseMainViewController.swift */; };
+		B3B662471D9408EC0088A57A /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B662461D9408EC0088A57A /* Toast.swift */; };
 		B3B7894F1D658B43007BEDAA /* VisaTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B7894E1D658B43007BEDAA /* VisaTabViewController.swift */; };
 		B3BDB9E11D72A7D1002CF9DF /* Legal Service.json in Resources */ = {isa = PBXBuildFile; fileRef = B3BDB9E01D72A7D1002CF9DF /* Legal Service.json */; };
 		B3BDB9E31D72A825002CF9DF /* LegalServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BDB9E21D72A825002CF9DF /* LegalServiceViewController.swift */; };
+		B3D03BEA1D9BF21300723C02 /* PageMainLogoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D03BE91D9BF21300723C02 /* PageMainLogoViewController.swift */; };
 		B3D1306B1D686535003D7B01 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D1306A1D686535003D7B01 /* AboutUsViewController.swift */; };
-		B3E026E51D741D6300D61EDF /* LegalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E026E41D741D6300D61EDF /* LegalService.swift */; };
-		B3E026E91D742A5700D61EDF /* OtherOrganizationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E026E81D742A5700D61EDF /* OtherOrganizationTableViewController.swift */; };
+		B3E026E51D741D6300D61EDF /* LegalServiceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E026E41D741D6300D61EDF /* LegalServiceAnnotation.swift */; };
+		B3E0565F1D8A69DB004CD31A /* Fast Food.json in Resources */ = {isa = PBXBuildFile; fileRef = B3E0565E1D8A69DB004CD31A /* Fast Food.json */; };
+		B3E056631D8AA565004CD31A /* ServiceCategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E056621D8AA565004CD31A /* ServiceCategoryTableViewController.swift */; };
+		B3E056651D8ACDE0004CD31A /* FilterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E056641D8ACDE0004CD31A /* FilterTableViewController.swift */; };
 		B3FAD6661D7D32D5006C01D2 /* DisclaimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FAD6651D7D32D5006C01D2 /* DisclaimerViewController.swift */; };
 		B3FDF6931D68212D00B8B732 /* 2013 Data.json in Resources */ = {isa = PBXBuildFile; fileRef = B3FDF6921D68212D00B8B732 /* 2013 Data.json */; };
 		B3FDF6951D6824EE00B8B732 /* CaseDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FDF6941D6824EE00B8B732 /* CaseDetailsViewController.swift */; };
@@ -82,10 +128,25 @@
 		B30D522F1D71AA1A008B74D0 /* Work Rights.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Work Rights.json"; sourceTree = "<group>"; };
 		B30D52331D71CF3C008B74D0 /* ConditionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionTableViewController.swift; sourceTree = "<group>"; };
 		B30D52351D71D852008B74D0 /* Work Condition.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Work Condition.json"; sourceTree = "<group>"; };
+		B31343281D8FAFD5004BBD94 /* Hospitality Job Description.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Hospitality Job Description.json"; sourceTree = "<group>"; };
+		B313432A1D8FB015004BBD94 /* Fast Food Job Description.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Fast Food Job Description.json"; sourceTree = "<group>"; };
 		B314819F1D68C7DE00E766D7 /* SwiftSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSpinner.swift; sourceTree = "<group>"; };
+		B31566A81D9BADEC0083C75F /* StringScore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringScore.swift; sourceTree = "<group>"; };
+		B31A74741D899B0E0074D91A /* PotentialMinPayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PotentialMinPayViewController.swift; sourceTree = "<group>"; };
+		B31A74761D899DFB0074D91A /* MinPayDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinPayDataController.swift; sourceTree = "<group>"; };
+		B31AB0CA1D9BC7EA000B9DFC /* SettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 		B322E5851D62FF2E00E59FBD /* VisaInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisaInfoTableViewController.swift; sourceTree = "<group>"; };
 		B322E5891D6325ED00E59FBD /* CellDescriptor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor.plist; sourceTree = "<group>"; };
+		B337FAFA1D86637B00E64E79 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		B337FAFC1D86684500E64E79 /* sample resume.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "sample resume.pdf"; sourceTree = "<group>"; };
+		B337FAFE1D867E2C00E64E79 /* PayTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayTabViewController.swift; sourceTree = "<group>"; };
 		B33DB9F41D6DB059008DC8EB /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		B34BDD351D996BE500CEA4CF /* AddAnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAnswerViewController.swift; sourceTree = "<group>"; };
+		B34BDD381D9982A400CEA4CF /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B34BDD391D9982A400CEA4CF /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B34BDD3E1D99893F00CEA4CF /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		B34BDD411D998E7700CEA4CF /* RegisterPageDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageDataViewController.swift; sourceTree = "<group>"; };
+		B34BDD4B1D99911E00CEA4CF /* MainRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainRegisterViewController.swift; sourceTree = "<group>"; };
 		B361B79D1D61D8380067266F /* 2012 Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2012 Data.json"; sourceTree = "<group>"; };
 		B361B79F1D61DE250067266F /* CompaniesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompaniesTableViewController.swift; sourceTree = "<group>"; };
 		B361B7A31D61E23D0067266F /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
@@ -104,24 +165,55 @@
 		B3710FA71D6096F400AC6316 /* Working_RightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Working_RightUITests.swift; sourceTree = "<group>"; };
 		B3710FA91D6096F400AC6316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3769DB31D6984D6008791DE /* main page image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main page image.png"; sourceTree = "<group>"; };
-		B38824001D6DD398000A1542 /* LegalAidTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalAidTabViewController.swift; sourceTree = "<group>"; };
+		B383B4DA1D87DFD3001D979C /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		B383B4DE1D87F7FB001D979C /* Hospitality.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Hospitality.json; sourceTree = "<group>"; };
+		B383B4E01D87F927001D979C /* MinPayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinPayViewController.swift; sourceTree = "<group>"; };
+		B383B4E41D87FBEB001D979C /* ResultTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultTableViewController.swift; sourceTree = "<group>"; };
 		B38824021D6DD406000A1542 /* RightsTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightsTabViewController.swift; sourceTree = "<group>"; };
 		B38FFB6C1D64752600779D66 /* visaInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = visaInfo.json; sourceTree = "<group>"; };
 		B38FFB6E1D64768500779D66 /* Visa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Visa.swift; sourceTree = "<group>"; };
 		B38FFB721D64A56D00779D66 /* VisaTypeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisaTypeTableViewController.swift; sourceTree = "<group>"; };
-		B39837D01D66F77600EB67B4 /* PayRatesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayRatesViewController.swift; sourceTree = "<group>"; };
+		B39095441D92C9840087690C /* FAQTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQTableViewController.swift; sourceTree = "<group>"; };
+		B390954C1D92D3BC0087690C /* FAQCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQCell.swift; sourceTree = "<group>"; };
+		B390954D1D92D3BC0087690C /* FAQCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FAQCell.xib; sourceTree = "<group>"; };
+		B39095501D92DA3E0087690C /* SearchFAQTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchFAQTableViewController.swift; sourceTree = "<group>"; };
+		B39095521D92DD190087690C /* SearchFAQCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchFAQCell.swift; sourceTree = "<group>"; };
+		B39095531D92DD190087690C /* SearchFAQCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchFAQCell.xib; sourceTree = "<group>"; };
+		B39095561D92EBB10087690C /* AddNewQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewQuestionViewController.swift; sourceTree = "<group>"; };
+		B39837D01D66F77600EB67B4 /* PayScaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayScaleViewController.swift; sourceTree = "<group>"; };
+		B39B6DEC1D9A807500CA0AEB /* TopQuestionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopQuestionsViewController.swift; sourceTree = "<group>"; };
+		B39B6DEE1D9A807F00CA0AEB /* TopQuestionDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopQuestionDataViewController.swift; sourceTree = "<group>"; };
+		B39B6DF01D9AB85D00CA0AEB /* SortCompanyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortCompanyTableViewController.swift; sourceTree = "<group>"; };
+		B39E1DAF1D967CB3001670A3 /* Cleaning Services.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Cleaning Services.json"; sourceTree = "<group>"; };
+		B39E1DB11D967CB8001670A3 /* Cleaning Services Job Description.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Cleaning Services Job Description.json"; sourceTree = "<group>"; };
+		B39F35D41D996478008C7B5C /* QuestionComponentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionComponentCell.swift; sourceTree = "<group>"; };
+		B39F35D51D996478008C7B5C /* QuestionComponentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuestionComponentCell.xib; sourceTree = "<group>"; };
+		B3A823441D8FFF160048AE4C /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
 		B3AE6E801D7FE34A00F3957B /* TipsTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsTabViewController.swift; sourceTree = "<group>"; };
 		B3AE6E841D7FF0F300F3957B /* ResumeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResumeTableViewController.swift; sourceTree = "<group>"; };
 		B3AE6E861D7FF0FE00F3957B /* InterviewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterviewTableViewController.swift; sourceTree = "<group>"; };
 		B3AE6E8A1D7FF37C00F3957B /* Resume.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Resume.json; sourceTree = "<group>"; };
 		B3AE6E8C1D7FF4D100F3957B /* Interview.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Interview.json; sourceTree = "<group>"; };
+		B3AEA6A31D98F90600CC26B8 /* QuestionDescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionDescriptionViewController.swift; sourceTree = "<group>"; };
+		B3AEA6A51D99193300CC26B8 /* AnswersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswersTableViewController.swift; sourceTree = "<group>"; };
+		B3AEA6A91D99223700CC26B8 /* QuestionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionCell.swift; sourceTree = "<group>"; };
+		B3AEA6AA1D99223700CC26B8 /* QuestionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuestionCell.xib; sourceTree = "<group>"; };
+		B3AEA6AF1D99227C00CC26B8 /* AnswerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerCell.swift; sourceTree = "<group>"; };
+		B3AEA6B01D99227C00CC26B8 /* AnswerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnswerCell.xib; sourceTree = "<group>"; };
+		B3AEA6B31D993D6D00CC26B8 /* AnswerDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerDetailViewController.swift; sourceTree = "<group>"; };
+		B3B6623E1D93A8D80088A57A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B3B662421D93DBAF0088A57A /* CaseMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaseMainViewController.swift; sourceTree = "<group>"; };
+		B3B662461D9408EC0088A57A /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		B3B7894E1D658B43007BEDAA /* VisaTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisaTabViewController.swift; sourceTree = "<group>"; };
 		B3BDB9E01D72A7D1002CF9DF /* Legal Service.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Legal Service.json"; sourceTree = "<group>"; };
 		B3BDB9E21D72A825002CF9DF /* LegalServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalServiceViewController.swift; sourceTree = "<group>"; };
+		B3D03BE91D9BF21300723C02 /* PageMainLogoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageMainLogoViewController.swift; sourceTree = "<group>"; };
 		B3D0DC013041FD8B4D081B30 /* Pods-Working RightsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Working RightsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Working RightsUITests/Pods-Working RightsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B3D1306A1D686535003D7B01 /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
-		B3E026E41D741D6300D61EDF /* LegalService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalService.swift; sourceTree = "<group>"; };
-		B3E026E81D742A5700D61EDF /* OtherOrganizationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherOrganizationTableViewController.swift; sourceTree = "<group>"; };
+		B3E026E41D741D6300D61EDF /* LegalServiceAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalServiceAnnotation.swift; sourceTree = "<group>"; };
+		B3E0565E1D8A69DB004CD31A /* Fast Food.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Fast Food.json"; sourceTree = "<group>"; };
+		B3E056621D8AA565004CD31A /* ServiceCategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceCategoryTableViewController.swift; sourceTree = "<group>"; };
+		B3E056641D8ACDE0004CD31A /* FilterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterTableViewController.swift; sourceTree = "<group>"; };
 		B3FAD6651D7D32D5006C01D2 /* DisclaimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisclaimerViewController.swift; sourceTree = "<group>"; };
 		B3FDF6921D68212D00B8B732 /* 2013 Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2013 Data.json"; sourceTree = "<group>"; };
 		B3FDF6941D6824EE00B8B732 /* CaseDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaseDetailsViewController.swift; sourceTree = "<group>"; };
@@ -180,6 +272,24 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B34BDD371D997E6B00CEA4CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B34BDD381D9982A400CEA4CF /* User+CoreDataProperties.swift */,
+				B34BDD391D9982A400CEA4CF /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B34BDD401D998E0A00CEA4CF /* RegisterUser */ = {
+			isa = PBXGroup;
+			children = (
+				B34BDD4B1D99911E00CEA4CF /* MainRegisterViewController.swift */,
+				B34BDD411D998E7700CEA4CF /* RegisterPageDataViewController.swift */,
+			);
+			path = RegisterUser;
+			sourceTree = "<group>";
+		};
 		B361B79C1D61D82B0067266F /* Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,6 +301,13 @@
 				B3BDB9E01D72A7D1002CF9DF /* Legal Service.json */,
 				B3AE6E8C1D7FF4D100F3957B /* Interview.json */,
 				B3AE6E8A1D7FF37C00F3957B /* Resume.json */,
+				B337FAFC1D86684500E64E79 /* sample resume.pdf */,
+				B383B4DE1D87F7FB001D979C /* Hospitality.json */,
+				B31343281D8FAFD5004BBD94 /* Hospitality Job Description.json */,
+				B3E0565E1D8A69DB004CD31A /* Fast Food.json */,
+				B313432A1D8FB015004BBD94 /* Fast Food Job Description.json */,
+				B39E1DAF1D967CB3001670A3 /* Cleaning Services.json */,
+				B39E1DB11D967CB8001670A3 /* Cleaning Services Job Description.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -198,6 +315,7 @@
 		B3710F781D6096F400AC6316 = {
 			isa = PBXGroup;
 			children = (
+				B34BDD371D997E6B00CEA4CF /* Model */,
 				B3FDF68F1D680DCF00B8B732 /* Image */,
 				B361B79C1D61D82B0067266F /* Data */,
 				B3710F831D6096F400AC6316 /* Working Right */,
@@ -224,32 +342,25 @@
 			children = (
 				B3710F881D6096F400AC6316 /* Main.storyboard */,
 				B3710F841D6096F400AC6316 /* AppDelegate.swift */,
+				B34BDD401D998E0A00CEA4CF /* RegisterUser */,
 				B3710F861D6096F400AC6316 /* ViewController.swift */,
+				B31AB0CA1D9BC7EA000B9DFC /* SettingTableViewController.swift */,
 				B33DB9F41D6DB059008DC8EB /* MenuCell.swift */,
 				B3FAD6651D7D32D5006C01D2 /* DisclaimerViewController.swift */,
 				B3D1306A1D686535003D7B01 /* AboutUsViewController.swift */,
-				B3B7894E1D658B43007BEDAA /* VisaTabViewController.swift */,
-				B38FFB721D64A56D00779D66 /* VisaTypeTableViewController.swift */,
-				B322E5851D62FF2E00E59FBD /* VisaInfoTableViewController.swift */,
-				B38FFB6E1D64768500779D66 /* Visa.swift */,
-				B361B79F1D61DE250067266F /* CompaniesTableViewController.swift */,
-				B361B7A31D61E23D0067266F /* Company.swift */,
-				B3FDF6941D6824EE00B8B732 /* CaseDetailsViewController.swift */,
-				B39837D01D66F77600EB67B4 /* PayRatesViewController.swift */,
-				B38824021D6DD406000A1542 /* RightsTabViewController.swift */,
-				B30D522B1D71A7DB008B74D0 /* WorkRightsTableViewController.swift */,
-				B30D52331D71CF3C008B74D0 /* ConditionTableViewController.swift */,
-				B38824001D6DD398000A1542 /* LegalAidTabViewController.swift */,
-				B3BDB9E21D72A825002CF9DF /* LegalServiceViewController.swift */,
-				B3E026E41D741D6300D61EDF /* LegalService.swift */,
-				B3E026E81D742A5700D61EDF /* OtherOrganizationTableViewController.swift */,
-				B3AE6E801D7FE34A00F3957B /* TipsTabViewController.swift */,
-				B3AE6E861D7FF0FE00F3957B /* InterviewTableViewController.swift */,
-				B3AE6E841D7FF0F300F3957B /* ResumeTableViewController.swift */,
+				B39B6DEB1D9A805000CA0AEB /* Top Questions */,
+				B3E056581D8A5FAE004CD31A /* Visa */,
+				B3E056591D8A5FBF004CD31A /* Cases */,
+				B3E0565A1D8A5FC6004CD31A /* Pay Rates */,
+				B39095431D92C94A0087690C /* FAQ */,
+				B3E0565B1D8A5FCC004CD31A /* Rights */,
+				B3E0565C1D8A5FD1004CD31A /* Legal Aid */,
+				B3E0565D1D8A5FD7004CD31A /* Job Tips */,
 				B3AE6E7F1D7FDCAD00F3957B /* Helper */,
 				B3710F8E1D6096F400AC6316 /* Assets.xcassets */,
 				B3710F901D6096F400AC6316 /* LaunchScreen.storyboard */,
 				B3710F931D6096F400AC6316 /* Info.plist */,
+				B3B6623E1D93A8D80088A57A /* GoogleService-Info.plist */,
 				B322E5891D6325ED00E59FBD /* CellDescriptor.plist */,
 				B3710F8B1D6096F400AC6316 /* Working_Right.xcdatamodeld */,
 			);
@@ -274,13 +385,120 @@
 			path = "Working RightUITests";
 			sourceTree = "<group>";
 		};
+		B39095431D92C94A0087690C /* FAQ */ = {
+			isa = PBXGroup;
+			children = (
+				B39095441D92C9840087690C /* FAQTableViewController.swift */,
+				B390954C1D92D3BC0087690C /* FAQCell.swift */,
+				B390954D1D92D3BC0087690C /* FAQCell.xib */,
+				B3AEA6A51D99193300CC26B8 /* AnswersTableViewController.swift */,
+				B3AEA6A91D99223700CC26B8 /* QuestionCell.swift */,
+				B3AEA6AA1D99223700CC26B8 /* QuestionCell.xib */,
+				B39F35D41D996478008C7B5C /* QuestionComponentCell.swift */,
+				B39F35D51D996478008C7B5C /* QuestionComponentCell.xib */,
+				B3AEA6AF1D99227C00CC26B8 /* AnswerCell.swift */,
+				B3AEA6B01D99227C00CC26B8 /* AnswerCell.xib */,
+				B3AEA6B31D993D6D00CC26B8 /* AnswerDetailViewController.swift */,
+				B39095501D92DA3E0087690C /* SearchFAQTableViewController.swift */,
+				B39095521D92DD190087690C /* SearchFAQCell.swift */,
+				B39095531D92DD190087690C /* SearchFAQCell.xib */,
+				B39095561D92EBB10087690C /* AddNewQuestionViewController.swift */,
+				B3AEA6A31D98F90600CC26B8 /* QuestionDescriptionViewController.swift */,
+				B34BDD351D996BE500CEA4CF /* AddAnswerViewController.swift */,
+			);
+			path = FAQ;
+			sourceTree = "<group>";
+		};
+		B39B6DEB1D9A805000CA0AEB /* Top Questions */ = {
+			isa = PBXGroup;
+			children = (
+				B39B6DEC1D9A807500CA0AEB /* TopQuestionsViewController.swift */,
+				B39B6DEE1D9A807F00CA0AEB /* TopQuestionDataViewController.swift */,
+				B3D03BE91D9BF21300723C02 /* PageMainLogoViewController.swift */,
+			);
+			path = "Top Questions";
+			sourceTree = "<group>";
+		};
 		B3AE6E7F1D7FDCAD00F3957B /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				B383B4DA1D87DFD3001D979C /* SwiftyJSON.swift */,
+				B3B662461D9408EC0088A57A /* Toast.swift */,
 				B314819F1D68C7DE00E766D7 /* SwiftSpinner.swift */,
 				B305B1E41D6970080053A161 /* Helper.swift */,
+				B34BDD3E1D99893F00CEA4CF /* TransitionManager.swift */,
+				B31A74741D899B0E0074D91A /* PotentialMinPayViewController.swift */,
+				B31A74761D899DFB0074D91A /* MinPayDataController.swift */,
+				B31566A81D9BADEC0083C75F /* StringScore.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		B3E056581D8A5FAE004CD31A /* Visa */ = {
+			isa = PBXGroup;
+			children = (
+				B3B7894E1D658B43007BEDAA /* VisaTabViewController.swift */,
+				B38FFB721D64A56D00779D66 /* VisaTypeTableViewController.swift */,
+				B322E5851D62FF2E00E59FBD /* VisaInfoTableViewController.swift */,
+				B38FFB6E1D64768500779D66 /* Visa.swift */,
+			);
+			path = Visa;
+			sourceTree = "<group>";
+		};
+		B3E056591D8A5FBF004CD31A /* Cases */ = {
+			isa = PBXGroup;
+			children = (
+				B361B79F1D61DE250067266F /* CompaniesTableViewController.swift */,
+				B39B6DF01D9AB85D00CA0AEB /* SortCompanyTableViewController.swift */,
+				B3B662421D93DBAF0088A57A /* CaseMainViewController.swift */,
+				B361B7A31D61E23D0067266F /* Company.swift */,
+				B3FDF6941D6824EE00B8B732 /* CaseDetailsViewController.swift */,
+			);
+			path = Cases;
+			sourceTree = "<group>";
+		};
+		B3E0565A1D8A5FC6004CD31A /* Pay Rates */ = {
+			isa = PBXGroup;
+			children = (
+				B337FAFE1D867E2C00E64E79 /* PayTabViewController.swift */,
+				B383B4E01D87F927001D979C /* MinPayViewController.swift */,
+				B3E056641D8ACDE0004CD31A /* FilterTableViewController.swift */,
+				B3A823441D8FFF160048AE4C /* SearchTableViewController.swift */,
+				B383B4E41D87FBEB001D979C /* ResultTableViewController.swift */,
+				B39837D01D66F77600EB67B4 /* PayScaleViewController.swift */,
+			);
+			path = "Pay Rates";
+			sourceTree = "<group>";
+		};
+		B3E0565B1D8A5FCC004CD31A /* Rights */ = {
+			isa = PBXGroup;
+			children = (
+				B38824021D6DD406000A1542 /* RightsTabViewController.swift */,
+				B30D522B1D71A7DB008B74D0 /* WorkRightsTableViewController.swift */,
+				B30D52331D71CF3C008B74D0 /* ConditionTableViewController.swift */,
+			);
+			path = Rights;
+			sourceTree = "<group>";
+		};
+		B3E0565C1D8A5FD1004CD31A /* Legal Aid */ = {
+			isa = PBXGroup;
+			children = (
+				B3BDB9E21D72A825002CF9DF /* LegalServiceViewController.swift */,
+				B3E056621D8AA565004CD31A /* ServiceCategoryTableViewController.swift */,
+				B3E026E41D741D6300D61EDF /* LegalServiceAnnotation.swift */,
+			);
+			path = "Legal Aid";
+			sourceTree = "<group>";
+		};
+		B3E0565D1D8A5FD7004CD31A /* Job Tips */ = {
+			isa = PBXGroup;
+			children = (
+				B3AE6E801D7FE34A00F3957B /* TipsTabViewController.swift */,
+				B3AE6E861D7FF0FE00F3957B /* InterviewTableViewController.swift */,
+				B3AE6E841D7FF0F300F3957B /* ResumeTableViewController.swift */,
+				B337FAFA1D86637B00E64E79 /* TestViewController.swift */,
+			);
+			path = "Job Tips";
 			sourceTree = "<group>";
 		};
 		B3FDF68F1D680DCF00B8B732 /* Image */ = {
@@ -407,18 +625,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3769DB41D6984D6008791DE /* main page image.png in Resources */,
+				B3AEA6AC1D99223700CC26B8 /* QuestionCell.xib in Resources */,
+				B3AEA6B21D99227C00CC26B8 /* AnswerCell.xib in Resources */,
 				B3710F921D6096F400AC6316 /* LaunchScreen.storyboard in Resources */,
+				B383B4DF1D87F7FB001D979C /* Hospitality.json in Resources */,
+				B31343291D8FAFD5004BBD94 /* Hospitality Job Description.json in Resources */,
 				B30D52301D71AA1A008B74D0 /* Work Rights.json in Resources */,
 				B3AE6E8B1D7FF37C00F3957B /* Resume.json in Resources */,
 				B322E58A1D6325ED00E59FBD /* CellDescriptor.plist in Resources */,
+				B337FAFD1D86684500E64E79 /* sample resume.pdf in Resources */,
+				B39095551D92DD190087690C /* SearchFAQCell.xib in Resources */,
 				B38FFB6D1D64752600779D66 /* visaInfo.json in Resources */,
 				B361B79E1D61D8380067266F /* 2012 Data.json in Resources */,
 				B3710F8F1D6096F400AC6316 /* Assets.xcassets in Resources */,
 				B3FDF6931D68212D00B8B732 /* 2013 Data.json in Resources */,
+				B39F35D71D996478008C7B5C /* QuestionComponentCell.xib in Resources */,
+				B39E1DB01D967CB3001670A3 /* Cleaning Services.json in Resources */,
 				B3BDB9E11D72A7D1002CF9DF /* Legal Service.json in Resources */,
+				B390954F1D92D3BC0087690C /* FAQCell.xib in Resources */,
+				B3E0565F1D8A69DB004CD31A /* Fast Food.json in Resources */,
 				B3710F8A1D6096F400AC6316 /* Main.storyboard in Resources */,
 				B30D52361D71D852008B74D0 /* Work Condition.json in Resources */,
 				B3AE6E8D1D7FF4D100F3957B /* Interview.json in Resources */,
+				B313432B1D8FB015004BBD94 /* Fast Food Job Description.json in Resources */,
+				B39E1DB21D967CB8001670A3 /* Cleaning Services Job Description.json in Resources */,
+				B3B6623F1D93A8D80088A57A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,32 +797,65 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B383B4E51D87FBEB001D979C /* ResultTableViewController.swift in Sources */,
+				B39095571D92EBB10087690C /* AddNewQuestionViewController.swift in Sources */,
+				B39B6DEF1D9A807F00CA0AEB /* TopQuestionDataViewController.swift in Sources */,
+				B3AEA6A61D99193300CC26B8 /* AnswersTableViewController.swift in Sources */,
+				B34BDD3A1D9982A400CEA4CF /* User+CoreDataProperties.swift in Sources */,
+				B39095511D92DA3E0087690C /* SearchFAQTableViewController.swift in Sources */,
+				B39F35D61D996478008C7B5C /* QuestionComponentCell.swift in Sources */,
 				B38FFB6F1D64768500779D66 /* Visa.swift in Sources */,
 				B3710F871D6096F400AC6316 /* ViewController.swift in Sources */,
+				B3AEA6B41D993D6D00CC26B8 /* AnswerDetailViewController.swift in Sources */,
+				B3D03BEA1D9BF21300723C02 /* PageMainLogoViewController.swift in Sources */,
+				B383B4E11D87F927001D979C /* MinPayViewController.swift in Sources */,
+				B383B4DB1D87DFD3001D979C /* SwiftyJSON.swift in Sources */,
+				B3B662431D93DBAF0088A57A /* CaseMainViewController.swift in Sources */,
+				B39B6DED1D9A807500CA0AEB /* TopQuestionsViewController.swift in Sources */,
 				B31481A01D68C7DE00E766D7 /* SwiftSpinner.swift in Sources */,
+				B3AEA6A41D98F90600CC26B8 /* QuestionDescriptionViewController.swift in Sources */,
 				B3D1306B1D686535003D7B01 /* AboutUsViewController.swift in Sources */,
 				B3AE6E811D7FE34A00F3957B /* TipsTabViewController.swift in Sources */,
+				B34BDD3F1D99893F00CEA4CF /* TransitionManager.swift in Sources */,
 				B3BDB9E31D72A825002CF9DF /* LegalServiceViewController.swift in Sources */,
+				B3E056631D8AA565004CD31A /* ServiceCategoryTableViewController.swift in Sources */,
 				B38824031D6DD406000A1542 /* RightsTabViewController.swift in Sources */,
 				B38FFB731D64A56D00779D66 /* VisaTypeTableViewController.swift in Sources */,
-				B38824011D6DD398000A1542 /* LegalAidTabViewController.swift in Sources */,
+				B337FAFF1D867E2C00E64E79 /* PayTabViewController.swift in Sources */,
 				B305B1E51D6970080053A161 /* Helper.swift in Sources */,
+				B3B662471D9408EC0088A57A /* Toast.swift in Sources */,
 				B3710F8D1D6096F400AC6316 /* Working_Right.xcdatamodeld in Sources */,
+				B39095541D92DD190087690C /* SearchFAQCell.swift in Sources */,
 				B3710F851D6096F400AC6316 /* AppDelegate.swift in Sources */,
-				B39837D11D66F77600EB67B4 /* PayRatesViewController.swift in Sources */,
+				B39837D11D66F77600EB67B4 /* PayScaleViewController.swift in Sources */,
+				B3AEA6B11D99227C00CC26B8 /* AnswerCell.swift in Sources */,
+				B34BDD3B1D9982A400CEA4CF /* User.swift in Sources */,
+				B31AB0CB1D9BC7EA000B9DFC /* SettingTableViewController.swift in Sources */,
 				B3AE6E871D7FF0FE00F3957B /* InterviewTableViewController.swift in Sources */,
-				B3E026E51D741D6300D61EDF /* LegalService.swift in Sources */,
+				B3E026E51D741D6300D61EDF /* LegalServiceAnnotation.swift in Sources */,
 				B361B7A01D61DE250067266F /* CompaniesTableViewController.swift in Sources */,
+				B337FAFB1D86637B00E64E79 /* TestViewController.swift in Sources */,
 				B30D522C1D71A7DB008B74D0 /* WorkRightsTableViewController.swift in Sources */,
+				B34BDD361D996BE500CEA4CF /* AddAnswerViewController.swift in Sources */,
+				B3AEA6AB1D99223700CC26B8 /* QuestionCell.swift in Sources */,
+				B3E056651D8ACDE0004CD31A /* FilterTableViewController.swift in Sources */,
 				B3AE6E851D7FF0F300F3957B /* ResumeTableViewController.swift in Sources */,
+				B39095451D92C9840087690C /* FAQTableViewController.swift in Sources */,
+				B34BDD421D998E7700CEA4CF /* RegisterPageDataViewController.swift in Sources */,
 				B322E5861D62FF2E00E59FBD /* VisaInfoTableViewController.swift in Sources */,
 				B3FAD6661D7D32D5006C01D2 /* DisclaimerViewController.swift in Sources */,
+				B39B6DF11D9AB85D00CA0AEB /* SortCompanyTableViewController.swift in Sources */,
+				B31566A91D9BADEC0083C75F /* StringScore.swift in Sources */,
 				B3B7894F1D658B43007BEDAA /* VisaTabViewController.swift in Sources */,
+				B390954E1D92D3BC0087690C /* FAQCell.swift in Sources */,
 				B3FDF6951D6824EE00B8B732 /* CaseDetailsViewController.swift in Sources */,
+				B34BDD4C1D99911E00CEA4CF /* MainRegisterViewController.swift in Sources */,
 				B33DB9F51D6DB059008DC8EB /* MenuCell.swift in Sources */,
+				B31A74751D899B0E0074D91A /* PotentialMinPayViewController.swift in Sources */,
 				B361B7A41D61E23D0067266F /* Company.swift in Sources */,
+				B3A823451D8FFF160048AE4C /* SearchTableViewController.swift in Sources */,
 				B30D52341D71CF3C008B74D0 /* ConditionTableViewController.swift in Sources */,
-				B3E026E91D742A5700D61EDF /* OtherOrganizationTableViewController.swift in Sources */,
+				B31A74771D899DFB0074D91A /* MinPayDataController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -683,7 +947,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -722,7 +986,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -736,10 +1000,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Working Right/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "FIT5120-Working-Rights";
 				PRODUCT_NAME = "Working Rights";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -750,10 +1015,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Working Right/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "FIT5120-Working-Rights";
 				PRODUCT_NAME = "Working Rights";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

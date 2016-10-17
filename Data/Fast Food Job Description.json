@@ -1,0 +1,18 @@
+[
+	{
+		"Job Title" : "Level 1",
+		"Description" : "An employee engaged in the preparation, the receipt of orders, cooking, sale, serving or delivery of meals, snacks and/or beverages which are sold to the public primarily to take away or in food courts in shopping centres. A fast food employee level 1 will undertake duties as directed within the limits of their competence, skills and training including incidental cleaning and cleaning of toilets."
+	},
+	{
+		"Job Title" : "Level 2",
+		"Description" : "An employee who has the major responsibility on a day to day basis for supervising Fast food employees level 1 and/or training new employees or an employee required to exercise trade skills."
+	},
+	{
+		"Job Title" : "Level 3 - in charge of 1 or no persons",
+		"Description" : "An employee appointed by the employer to be in charge of a shop, food outlet, or delivery outlet."
+	},
+	{
+		"Job Title": "Level 3 - in charge of 2 or more persons",
+		"Description": "An employee appointed by the employer to be in charge of a shop, food outlet, or delivery outlet."
+	}
+]

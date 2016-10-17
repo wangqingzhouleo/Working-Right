@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "InterviewTableViewController.tableView(UITableView, didSelectRowAtIndexPath : NSIndexPath) -&gt; ():InterviewTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "expandedRow!.row">
+            </PersistentString>
+            <PersistentString
+               value = "lastExpanded!.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FAQTableViewController.(loadData() -&gt; ()).(closure #1):FAQTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "allQuestions">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MinPayViewController.viewDidLoad() -&gt; ():MinPayViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "orderedViewControllers.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "WorkRightsTableViewController.tableView(UITableView, cellForRowAtIndexPath : NSIndexPath) -&gt; UITableViewCell:WorkRightsTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+            <PersistentString
+               value = "workConditionList">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FAQTableViewController.loadData() -&gt; ():FAQTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "allQuestions">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LegalServiceViewController.viewDidLoad() -&gt; ():LegalServiceViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "navigationController?.toolbar.hidden">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FilterTableViewController.loadDescription() -&gt; ():FilterTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "industry">
+            </PersistentString>
+            <PersistentString
+               value = "json">
+            </PersistentString>
+            <PersistentString
+               value = "allDescriptions[&quot;Cleaning service employee Level 1&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "allDescriptions.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FAQTableViewController.tableView(UITableView, cellForRowAtIndexPath : NSIndexPath) -&gt; UITableViewCell:FAQTableViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "AnswersTableViewController.tableView(UITableView, didSelectRowAtIndexPath : NSIndexPath) -&gt; ():AnswersTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "storyboard">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AnswerDetailViewController.(modifyAmount(forType : String, byAmount : Int) -&gt; ()).(closure #1):AnswerDetailViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.question">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MinPayPages.newController(String) -&gt; UIViewController:MinPayPages.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "storyboard">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

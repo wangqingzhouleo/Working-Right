@@ -1,201 +1,198 @@
-[{"name":"Melbourne",
-	"address":[{"address":"350 Queen St, Melbourne, VIC, 3000","lat":-37.810323,"long":144.958878}],"tel":"1300 792 387","tollFree":"","field": "Legal Aid Service"},
-{"name":"Broadmeadows",
-	"address": [{"address":"1100 Pascoe Vale Rd, Broadmeadows, VIC, 3047","lat":-37.683131,"long":144.919157}],"tel":"03 9302 8777","tollFree":"","field": "Legal Aid Service"},
-{"name":"Ballarat",
-	"address":[{"address":"75 Victoria St, Ballarat, VIC, 3350","lat":-37.561855,"long":143.868936}],"tel":"03 5329 6222","tollFree":"1800 081 719","field": "Legal Aid Service"},
-{"name":"Dandenong",
-	"address":[{"address":"9 - 15 Pultney St, Dandenong, VIC, 3175","lat":-37.989192,"long":145.215197}],"tel":"03 9767 7111","tollFree":"","field": "Legal Aid Service"},
-{"name":"Bairnsdale",
-	"address":[{"address":"87A Main St, Bairnsdale, VIC, 3875","lat":-37.825843,"long":147.633503}],"tel":"03 5153 1975","tollFree":"","field": "Legal Aid Service"},
-{"name":"Frankston",
-	"address":[{"address":"Cnr O'Grady Ave & Dandenong Rd, Frankston, VIC, 3199","lat":-38.138838,"long":145.127643}],"tel":"03 9784 5222","tollFree":"","field": "Legal Aid Service"},
-{"name":"Bendigo",
-	"address":[{"address":"424 Hargreaves St, Bendigo, VIC, 3550","lat":-36.762269,"long":144.276797}],"tel":"03 5488 2333","tollFree":"1800 254 500","field": "Legal Aid Service"},
-{"name":"Ringwood",
-	"address":[{"address":"23 Ringwood St, Ringwood, VIC, 3134","lat":-37.81384,"long":145.226946}],"tel":"03 9259 5444","tollFree":"","field": "Legal Aid Service"},
-{"name":"Geelong",
-	"address":[{"address":"199 Moorabool St, Geelong, VIC, 3220","lat":-38.150523,"long":144.359528}],"tel":"03 5226 5666","tollFree":"1800 196 200","field": "Legal Aid Service"},
-{"name":"Sunshine",
-	"address":[{"address":"1/474 Ballarat Rd, Sunshine, VIC, 3020","lat":-37.777842,"long":144.835231}],"tel":"03 9300 5333","tollFree":"","field": "Legal Aid Service"},
-{"name":"Horsham",
-	"address":[{"address":"29 Darlot St, Horsham, VIC, 3400","lat":-36.715922,"long":142.197386}],"tel":"03 5381 6000","tollFree":"1800 177 638","field": "Legal Aid Service"},
-{"name":"Morwell",
-	"address":[{"address":"4 Chapel St, Morwell, VIC, 3840","lat":-38.238575,"long":146.399782}],"tel":"03 5134 8055","tollFree":"","field": "Legal Aid Service"},
-{"name":"Shepparton",
-	"address":[{"address":"36 - 42 High St, Shepparton, VIC, 3630","lat":-36.381337,"long":145.399538}],"tel":"03 5823 6200","tollFree":"","field": "Legal Aid Service"},
-
-{"name":"Warrnambool",
-	"address":[{"address":"185 Fairy St, Warrnambool, VIC, 3280","lat":-38.378615,"long":142.480953}],"tel":"03 5559 7222","tollFree":"1800 651 022","field": "Legal Aid Service"},
+[{"name":"Legal Aid Victoria - Melbourne",
+	"address":[{"address":"350 Queen St, Melbourne, VIC, 3000","lat":-37.810323,"long":144.958878,"tel":"1300 792 387"}],"tollFree":"","field": "Legal Aid Victoria"},
+{"name":"Legal Aid Victoria - Broadmeadows",
+	"address": [{"address":"1100 Pascoe Vale Rd, Broadmeadows, VIC, 3047","lat":-37.683131,"long":144.919157,"tel":"03 9302 8777"}],"tollFree":"","field": "Legal Aid Victoria"},
+{"name":"Legal Aid Victoria - Ballarat",
+	"address":[{"address":"75 Victoria St, Ballarat, VIC, 3350","lat":-37.561855,"long":143.868936,"tel":"03 5329 6222"}],"tollFree":"1800 081 719","field": "Legal Aid Victoria"},
+{"name":"Legal Aid Victoria - Dandenong",
+	"address":[{"address":"9 - 15 Pultney St, Dandenong, VIC, 3175","lat":-37.989192,"long":145.215197,"tel":"03 9767 7111"}],"tollFree":"","field": "Legal Aid Victoria"},
+{"name":"Legal Aid Victoria - Bairnsdale",
+	"address":[{"address":"87A Main St, Bairnsdale, VIC, 3875","lat":-37.825843,"long":147.633503,"tel":"03 5153 1975"}],"tollFree":"","field": "Legal Aid Victoria"},
+{"name":"Legal Aid Victoria - Frankston",
+	"address":[{"address":"Cnr O'Grady Ave & Dandenong Rd, Frankston, VIC, 3199","lat":-38.138838,"long":145.127643,"tel":"03 9784 5222"}],"tollFree":"","field": "Legal Aid Victoria"},
+{"name":"Legal Aid Victoria - Bendigo",
+	"address":[{"address":"424 Hargreaves St, Bendigo, VIC, 3550","lat":-36.762269,"long":144.276797,"tel":"03 5488 2333"}],"tollFree":"1800 254 500","field": "Legal Aid Victoria"},
+{"name":"Legal Aid Victoria - Ringwood",
+	"address":[{"address":"23 Ringwood St, Ringwood, VIC, 3134","lat":-37.81384,"long":145.226946,"tel":"03 9259 5444"}],"tollFree":"","field": "Legal Aid Victoria"},
+{"name":"Legal Aid Victoria - Geelong",
+	"address":[{"address":"199 Moorabool St, Geelong, VIC, 3220","lat":-38.150523,"long":144.359528,"tel":"03 5226 5666"}],"tollFree":"1800 196 200","field": "Legal Aid Victoria"},
+{"name":"Legal Aid Victoria - Sunshine",
+	"address":[{"address":"1/474 Ballarat Rd, Sunshine, VIC, 3020","lat":-37.777842,"long":144.835231,"tel":"03 9300 5333"}],"tollFree":"","field": "Legal Aid Victoria"},
+{"name":"Legal Aid Victoria - Horsham",
+	"address":[{"address":"29 Darlot St, Horsham, VIC, 3400","lat":-36.715922,"long":142.197386,"tel":"03 5381 6000"}],"tollFree":"1800 177 638","field": "Legal Aid Victoria"},
+{"name":"Legal Aid Victoria - Morwell",
+	"address":[{"address":"4 Chapel St, Morwell, VIC, 3840","lat":-38.238575,"long":146.399782,"tel":"03 5134 8055"}],"tollFree":"","field": "Legal Aid Victoria"},
+{"name":"Legal Aid Victoria - Shepparton",
+	"address":[{"address":"36 - 42 High St, Shepparton, VIC, 3630","lat":-36.381337,"long":145.399538,"tel":"03 5823 6200"}],"tollFree":"","field": "Legal Aid Victoria"},
+{"name":"Legal Aid Victoria - Warrnambool",
+	"address":[{"address":"185 Fairy St, Warrnambool, VIC, 3280","lat":-38.378615,"long":142.480953,"tel":"03 5559 7222"}],"tollFree":"1800 651 022","field": "Legal Aid Victoria"},
 	{
-  "name": "JobWatch",
-  "description": "JobWatch is an Employment Rights Legal Centre which provides a free and confidential telephone information and referral service to Victorian workers about their rights at work.",
-  "address": [
-    {
-      "address": "599 Little Bourke Street, Melbourne",
-      "lat":-37.815571,
-      "long":144.954636
-    }],
-  "tel": "1800 056 449",
-  "email": "info@studymelbourne.vic.gov.au",
-  "webSite": "http://www.jobwatch.org.au/index.php",
-  "field": "Legal services"
-},
-{
-  "name": "Fair Work Ombudsman",
-  "description": "The Fair Work Ombudsman investigates and prosecutes alleged breaches of awards, workplace agreements and the Commonwealth Workplace Relations Act 1996.",
-  "address": [
-    {
-      "address": "Level 6 414 La Trobe Street Melbourne VIC",
-      "lat":-37.811338,
-      "long":144.957135
-    }],
-  "tel": "13 13 94",
-  "email": "websitefeedback@fwo.gov.au",
-  "webSite": "https://www.fairwork.gov.au",
-  "field": "Complaints"
-},
-{
-  "name": "Australian Council of Trade Unions",
-  "description": "Trade unions can help their members with many employment issues, including pay conditions, unfair dismissals and apprenticeship and traineeship disputes, under state and Commonwealth awards. They can also help members with workers’ compensation disputes under state and Commonwealth awards.",
-  "address": [
-    {
-      "address": "Level 4/365 Queen Street Melbourne Victoria",
-      "lat":-37.809858,
-      "long":144.958067
-    }],
-  "tel": "03 9664 7333",
-  "email": "help@actu.org.au",
-  "webSite": "http://www.actu.org.au/",
-  "field": "Workplace rights"
-},
-{
-  "name": "WorkSafe Victoria",
-  "description": "WorkSafe Victoria manages the workers compensation scheme and investigates breaches of occupational health and safety laws. There is information on their website about making a claim and returning to work after you are injured at work.",
-  "address": [
-    {
-      "address": "Ground Floor 222 Exhibition Street Melbourne",
-      "lat":-37.810727,
-      "long":144.970238
-    },
-    {
-      "address": "Office 1, Level 2 Central Square 18 Armstrong Street South Ballarat",
-      "lat":-37.563128,
-      "long":143.855303
-    },
-    {
-      "address": "104 Queen Street",
-      "lat":-37.869793,
-      "long":144.831986
-    },
-    {
-      "address": "171-191 Hammond Avenue Cnr English Street Essendon Fields",
-      "lat":-37.725859,
-      "long":144.892545
-    },
-    {
-      "address": "Level 1, 1 Yarra Street",
-      "lat":-37.838531,
-      "long":144.992854
-    },
-    {
-      "address": "78 Lemon Avenue",
-      "lat":-34.188986,
-      "long":142.164567
-    },
-    {
-      "address": "37 Dunlop Road",
-      "lat":-37.910258,
-      "long":145.158704
-    },
-    {
-      "address": "148-150 Welsford Street",
-      "lat":-36.380521,
-      "long":145.397407
-    },
-    {
-      "address": "Suites 1 & 2, 6-8 Grey Street",
-      "lat":-38.193622,
-      "long":146.541644
-    },
-    {
-      "address": "24 Reid Street",
-      "lat":-36.355330,
-      "long":146.327780
-    },
-    {
-      "address": "76 Henna St",
-      "lat":-38.378252,
-      "long":142.478770
-    }],
-  "tel": "03 9641 1444",
-  "email": "info@worksafe.vic.gov.au",
-  "webSite": "http://www.worksafe.vic.gov.au/home",
-  "field": "WorkSafe Victoria"
-},
-{
-  "name": "WorkCover Assist ",
-  "description": "WorkCover Assist is a free service provided by WorkSafe Victoria to help injured workers who have a workcover dispute with their employer. The staff will explain the conciliation process and will attend a conciliation conference to assist the employee.",
-  "address": [
-    {
-      "address": "GPO Box 2923 Melbourne",
-      "lat":-37.813628,
-      "long":144.963058
-    }],
-  "tel": "9941 0537",
-  "email": "workcoverassist@workcoverassist.vic.gov.au",
-  "webSite": "http://www.workcoverassist.vic.gov.au/home",
-  "field": "WorkSafe Victoria"
-},
-{
-  "name": "Australian Taxation Office",
-  "description": "Contact the Australian Tax Office's Superannuation Hotline on 131 020 for enquiries and services on superannuation.",
-  "address": [
-    {
-      "address": "Dandenong Service Centre Level 1, 27–29 Robinson St DANDENONG  VIC",
-      "lat":-37.987701,
-      "long":145.210702
-    },
-    {
-      "address": "Geelong Service Centre 12–14 Little Ryrie St GEELONG  VIC",
-      "lat":-38.149344,
-      "long":144.355199
-    },
-    {
-      "address": "Collins Square 747 Collins St DOCKLANDS VIC",
-      "lat":-37.820897,
-      "long":144.949167
-    }],
-  "tel": "13 28 61",
-  "email": "ReportEmailFraud@ato.gov.au",
-  "webSite": "https://www.ato.gov.au/",
-  "field": "Superannuation"
-},
-{
-  "name": "Department of Industry ",
-  "description": "If you are an independent contractor, the Department of Industry has information about your rights and a range of support services. You can also call its hotline on 13 28 46 to speak to an advisor about a range of independent contracting matters.",
-  "address": [
-    {
-      "address": "Industry House 10 Binara Street Canberra ACT",
-      "lat":-35.281738,
-      "long":149.134011
-    }],
-  "tel": "02 6213 6000",
-  "email": "enquiries@industry.gov.au",
-  "webSite": "http://www.industry.gov.au/Pages/default.aspx",
-  "field": "Support for independent contractors"
-},
-{
-  "name": "Community legal centre",
-  "description": "Your local community legal centre can give you legal information and advice. Most services are free.",
-  "address": [
-    {
-      "address": "Level 3, 225 Bourke Street, Melbourne VIC",
-      "lat":-37.813348,
-      "long":144.967053
-    }],
-  "tel": "03 9652 1500",
-  "email": "administration@fclc.org.au",
-  "webSite": "http://www.fclc.org.au/",
-  "field": "Legal services"
-}]
+ "name": "JobWatch",
+ "description": "JobWatch is an Employment Rights Legal Centre which provides a free and confidential telephone information and referral service to Victorian workers about their rights at work.",
+ "address": [
+             {
+             "address": "599 Little Bourke Street, Melbourne",
+             "lat":-37.815571,
+             "long":144.954636,
+             "tel": "1800 056 449"
+             }],
+ "email": "info@studymelbourne.vic.gov.au",
+ "webSite": "http://www.jobwatch.org.au/index.php",
+ "field": "Legal services"
+ },
+ {
+ "name": "Fair Work Ombudsman",
+ "description": "The Fair Work Ombudsman investigates and prosecutes alleged breaches of awards, workplace agreements and the Commonwealth Workplace Relations Act 1996.",
+ "address": [
+             {
+             "address": "Level 6 414 La Trobe Street Melbourne VIC",
+             "lat":-37.811338,
+             "long":144.957135,
+             "tel": "13 13 94"
+             }],
+ "email": "websitefeedback@fwo.gov.au",
+ "webSite": "https://www.fairwork.gov.au",
+ "field": "Complaints"
+ },
+ {
+ "name": "Australian Council of Trade Unions",
+ "description": "Trade unions can help their members with many employment issues, including pay conditions, unfair dismissals and apprenticeship and traineeship disputes, under state and Commonwealth awards. They can also help members with workers’ compensation disputes under state and Commonwealth awards.",
+ "address": [
+             {
+             "address": "Level 4/365 Queen Street Melbourne Victoria",
+             "lat":-37.809858,
+             "long":144.958067,
+             "tel": "03 9664 7333"
+             }],
+ "email": "help@actu.org.au",
+ "webSite": "http://www.actu.org.au/",
+ "field": "Workplace rights"
+ },
+ {
+ "name": "WorkSafe Victoria",
+ "description": "WorkSafe Victoria manages the workers compensation scheme and investigates breaches of occupational health and safety laws. There is information on their website about making a claim and returning to work after you are injured at work.",
+ "address": [
+             {
+             "address": "Ground Floor 222 Exhibition Street Melbourne",
+             "lat":-37.810727,
+             "long":144.970238,
+             "tel": "03 9641 1555"
+             },
+             {
+             "address": "Office 1, Level 2 Central Square 18 Armstrong Street South Ballarat",
+             "lat":-37.563128,
+             "long":143.855303,
+             "tel": "03 5338 4444"
+             },
+             {
+             "address": "104 Queen Street",
+             "lat":-37.869793,
+             "long":144.831986,
+             "tel": "03 5443 8866"
+             },
+             {
+             "address": "171-191 Hammond Avenue Cnr English Street Essendon Fields",
+             "lat":-37.725859,
+             "long":144.892545,
+             "tel": "03 8792 9000"
+             },
+             {
+             "address": "Level 1, 1 Yarra Street",
+             "lat":-37.838531,
+             "long":144.992854,
+             "tel": "03 5226 1200"
+             },
+             {
+             "address": "78 Lemon Avenue",
+             "lat":-34.188986,
+             "long":142.164567,
+             "tel": "03 5021 4001"
+             },
+             {
+             "address": "37 Dunlop Road",
+             "lat":-37.910258,
+             "long":145.158704,
+             "tel": "03 9565 9444"
+             },
+             {
+             "address": "148-150 Welsford Street",
+             "lat":-36.380521,
+             "long":145.397407,
+             "tel": "03 5831 8260"
+             },
+             {
+             "address": "Suites 1 & 2, 6-8 Grey Street",
+             "lat":-38.193622,
+             "long":146.541644,
+             "tel": "03 5174 8900"
+             },
+             {
+             "address": "24 Reid Street",
+             "lat":-36.355330,
+             "long":146.327780,
+             "tel": "03 5721 8588"
+             },
+             {
+             "address": "76 Henna St",
+             "lat":-38.378252,
+             "long":142.478770,
+             "tel": "03 5564 3200"
+             }],
+ "email": "info@worksafe.vic.gov.au",
+ "webSite": "http://www.worksafe.vic.gov.au/home",
+ "field": "WorkSafe Victoria"
+ },
+ {
+ "name": "WorkCover Assist ",
+ "description": "WorkCover Assist is a free service provided by WorkSafe Victoria to help injured workers who have a workcover dispute with their employer. The staff will explain the conciliation process and will attend a conciliation conference to assist the employee.",
+ "address": [
+             {
+             "address": "GPO Box 2923 Melbourne",
+             "lat":-37.813628,
+             "long":144.963058,
+             "tel": "9941 0537"
+             }],
+ "email": "workcoverassist@workcoverassist.vic.gov.au",
+ "webSite": "http://www.workcoverassist.vic.gov.au/home",
+ "field": "WorkSafe Victoria"
+ },
+ {
+ "name": "Australian Taxation Office",
+ "description": "Contact the Australian Tax Office's Superannuation Hotline on 131 020 for enquiries and services on superannuation.",
+ "address": [
+             {
+             "address": "Dandenong Service Centre Level 1, 27–29 Robinson St DANDENONG  VIC",
+             "lat":-37.987701,
+             "long":145.210702,
+             "tel": "13 28 61"
+             },
+             {
+             "address": "Geelong Service Centre 12–14 Little Ryrie St GEELONG  VIC",
+             "lat":-38.149344,
+             "long":144.355199,
+             "tel": "13 28 61"
+             },
+             {
+             "address": "Collins Square 747 Collins St DOCKLANDS VIC",
+             "lat":-37.820897,
+             "long":144.949167,
+             "tel": "13 28 61"
+             }],
+ "email": "ReportEmailFraud@ato.gov.au",
+ "webSite": "https://www.ato.gov.au/",
+ "field": "Superannuation"
+ },
+ {
+ "name": "Community legal centre",
+ "description": "Your local community legal centre can give you legal information and advice. Most services are free.",
+ "address": [
+             {
+             "address": "Level 3, 225 Bourke Street, Melbourne VIC",
+             "lat":-37.813348,
+             "long":144.967053,
+             "tel": "03 9652 1500"
+             }],
+ "email": "administration@fclc.org.au",
+ "webSite": "http://www.fclc.org.au/",
+ "field": "Legal services"
+ }]

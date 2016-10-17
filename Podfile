@@ -5,6 +5,9 @@ target 'Working Rights' do
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
   pod 'Instructions'
+  pod 'Firebase'
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
 
   # Pods for Working Rights
 
