@@ -76,7 +76,6 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             NSUserDefaults.standardUserDefaults().setBool(true, forKey: "everLaunched")
             self.coachMarksController.startOn(self)
         }
-        
     }
     
     override func viewWillDisappear(animated: Bool) {
@@ -126,7 +125,6 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     // Customize how a coach mark will position and appear.
     func coachMarksController(coachMarksController: CoachMarksController, coachMarksForIndex index: Int) -> CoachMark {
-//        self.pointOfInterest = menuCollectionView.visibleCells()[index]
         return coachMarksController.coachMarkForView(self.pointOfInterest[index])
     }
     
